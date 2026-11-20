@@ -70,4 +70,4 @@ GitHub Actions 能替代“手边必须有 Mac”的编译步骤，但仍有边�
 
 - 所有临时下载、反编译结果、缓存、QA 日志和构建输出均在 `.tmp/`。
 - API Key 不进入会话快照：Android 使用 Keystore，iOS 使用 Keychain，Web 使用当前标签页 `sessionStorage`。
-- `assets/original/` 来自官方 APK，品牌与图形权利不因 chat-demo 的 MIT License 自动转移。公开仓库前应单独确认素材许可；当前不能把“代码开源”直接等同于“官方素材可再分发”。
+- 项目权利人已指示仓库统一采用 MIT License；`assets/SOURCE.md` 与 `assets/MANIFEST.json` 继续记录 APK 来源。DeepSeek 名称及商标权利不因代码许可发生转移，项目不声称是官方客户端。

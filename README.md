@@ -31,4 +31,4 @@ iOS 工程由 `iosApp/project.yml` 生成，SwiftUI 通过 `NativeClient` 调用
 
 ## 许可
 
-本项目原创代码采用 MIT License。`docs/evidence/chat-demo/` 保留其上游 MIT 声明；`assets/original/`、`assets/derived/` 中的官方 App 图形、音频、动效与品牌标识不属于本项目 MIT 授权范围，公开发布前必须单独确认权利。DeepSeek 名称及相关商标归其权利人所有，本项目不是官方客户端。
+按项目权利人指示，本仓库代码及随仓库分发的派生素材统一采用 MIT License。`docs/evidence/chat-demo/` 保留上游 MIT 声明，`assets/SOURCE.md` 与 `assets/MANIFEST.json` 继续如实记录素材来源。DeepSeek 名称及相关商标归其权利人所有，本项目不是官方客户端。

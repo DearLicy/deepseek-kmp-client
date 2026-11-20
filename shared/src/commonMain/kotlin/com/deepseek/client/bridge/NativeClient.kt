@@ -38,6 +38,7 @@ data class NativeViewState(
     val storageError: String?, val draft: String, val thinking: Boolean, val search: Boolean, val theme: String, val fontScale: Float,
     val selectedId: String?, val activeId: String?, val notice: String?, val sessions: List<NativeSession>,
     val attachments: List<NativeAttachment>, val preparingAttachments: Boolean,
+    val drafts: Map<String, String>, val draftAttachments: Map<String, List<NativeAttachment>>,
 )
 @Serializable
 data class NativeSession(val id: String, val title: String, val pinned: Boolean, val updatedAt: Long, val messages: List<NativeMessage>)
@@ -65,6 +66,7 @@ object NativeProjection {
             } }, message.sources, message.createdAt, message.attachments.map(::file))
         }) },
         state.attachments.map(::file), state.preparingAttachments && state.selectedIsGenerating,
+        state.drafts, state.draftAttachments.mapValues { (_, values) -> values.map(::file) },
     ))
 
     private fun file(value: Attachment) = NativeAttachment(value.id, value.name, value.mediaType, value.sizeBytes)

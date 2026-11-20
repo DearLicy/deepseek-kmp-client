@@ -28,6 +28,6 @@
 
 ## 本项目实现状态
 
-共享层已经落地附件元数据持久化、Files multipart 上传、原图与上传副本分离、发送前补传、有限次失效 `file_id` 重试，以及 981 项官方扩展名清单。Android 使用系统文件选择器、`AtomicFile`、Keystore 和 Bitmap/ImageDecoder；Web 使用 IndexedDB 与 Canvas；iOS 使用文件选择器、Application Support、ImageIO 和同一 `NativeClient` 桥。
+共享层已经落地附件元数据持久化、Files multipart 上传、原图与上传副本分离、发送前补传、有限次失效 `file_id` 重试，以及 981 项官方扩展名清单。Android 使用系统文件选择器、`AtomicFile`、Keystore 和 Bitmap/ImageDecoder；Web 直接复用 chat-demo 的附件卡片 UI，以 IndexedDB 保存原件并由 Canvas 生成上传副本；iOS 使用文件选择器、Application Support、ImageIO 和同一 `NativeClient` 桥。
 
-已用 MockWebServer 验证 multipart 的 `purpose` 位于 `file` 之前、历史大图只重传副本、原图保持不变、服务端报告失效 ID 后只清理对应引用并重试。Web 已在 Chromium 中实际完成“选择文件 -> 草稿附件卡片 -> 移除”的交互检查。iOS 首次 macOS/Xcode 编译仍由 GitHub Actions 执行，未完成前不能声称双端附件均已通过平台验收。
+已用 MockWebServer 验证 multipart 的 `purpose` 位于 `file` 之前、历史大图只重传副本、原图保持不变、服务端报告失效 ID 后只清理对应引用并重试。Web 已在 Chromium 中实际完成“选择文件 -> chat-demo 原版草稿附件卡片 -> 移除”的交互检查，并确认附件状态最终由 KMP 投影驱动。iOS 首次 macOS/Xcode 编译仍由 GitHub Actions 执行，未完成前不能声称双端附件均已通过平台验收。

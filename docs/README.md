@@ -20,6 +20,7 @@
 | [11 分享建议核对](11-ADVICE-REVIEW.md) | 用户提供分享页建议与当前目标的差异 |
 | [12 当前状态](12-STATUS-AND-NEXT-STEPS.md) | 实际已验证、未实现、下一阶段与命令 |
 | [13 chat-demo v0.1.3 附件增量](13-CHAT-DEMO-V013-ATTACHMENTS.md) | 大图规范化、历史补传与跨端实现合同 |
+| [14 Web 复用 chat-demo UI](14-WEB-CHAT-DEMO-UI-INTEGRATION.md) | 原版组件/样式与 KMP BrowserClient 的适配边界、验证方法和限制 |
 
 正式素材在 `assets/`；`assets/SOURCE.md` 与 `assets/MANIFEST.json` 可追溯到 APK 字节。固定版参考源码与资源映射在 `docs/evidence/`。下载、反编译中间产物、构建输出、测试日志与缓存均放在项目 `.tmp/`。
 

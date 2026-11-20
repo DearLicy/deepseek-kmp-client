@@ -1,12 +1,12 @@
 # 当前状态与下一步
 
-更新日期：2026-11-21。本文只记录当前工作区可复核的事实；设计规格中的“必须实现”不等于已经完成。
+更新日期：2026-11-20。本文只记录当前工作区可复核的事实；设计规格中的“必须实现”不等于已经完成。
 
 ## 当前可运行范围
 
 - KMP 共享层包含 MVI Store、Reducer、SSE 协议、会话快照、搜索来源投影、Files API 附件状态与上传编排。
 - Android 原生 Compose 已接安全 API Key、会话持久化、系统文件选择器、本地附件原件、图片长边规范化、发送前上传和历史附件补传。
-- Web 已接同一 KMP 控制器，使用 IndexedDB 保存附件原件、Canvas 生成上传副本，并提供附件选择、移除和发送前状态。
+- Web 已直接复用 chat-demo v0.1.2 的 MIT UI（页面、组件、CSS、Markdown、思考/搜索、侧栏、输入框和设置），并由 `web/src/services/`、`web/src/runtime/` 适配到同一 KMP `BrowserClient`。附件原件继续由 IndexedDB 保存，上传副本由 Canvas 规范化。
 - iOS SwiftUI 已接文件选择器、Application Support 本地原件、ImageIO 图片缩放和同一 `NativeClient` 桥；工程由 XcodeGen 生成。
 - 思考折叠、联网来源、会话侧栏、设置、字体、主题和 API Key 配置已有实现。音色、ASR、录音与完整视觉动效仍未完成。
 
@@ -29,15 +29,16 @@ JAVA_HOME=<JDK17_HOME> ANDROID_HOME=<ANDROID_SDK> \
 | 共享层 JVM 单测 | 通过；覆盖附件协议、快照、MVI 和 SSE |
 | 附件网络切片 | 通过；MockWebServer 覆盖 multipart 字段顺序、图片补传、原件保留、失效 `file_id` 重试 |
 | Android 单测 / lint / Debug APK | 通过 |
-| Web 单测 / Vite 生产构建 | 通过 |
-| Web 运行时 | Chromium 实际加载通过；文件选择后出现附件卡片，移除后状态归零，无页面异常 |
+| Web 单测 / TypeScript / Vite 生产构建 | 通过 |
+| Web 原版 UI 运行时 | Chromium 在 1440×1000 与 390×844 加载通过；欢迎页、侧栏、输入框、附件选择/移除均来自 chat-demo 原组件 |
+| Web → KMP E2E（mock API） | 通过；设置页校验 Key、chat-demo 输入框发送、KMP SSE 回显正文；另验证思考块、搜索来源和引用样式 |
 | iOS | 已准备 XcodeGen 工程与 GitHub Actions macOS 任务；尚未在本工作区实际跑过 macOS/Xcode，不能声称编译通过 |
 
 产物路径：
 
 - Android Debug APK：`.tmp/build/androidApp/outputs/apk/debug/androidApp-debug.apk`
 - Web 构建：`.tmp/web-dist/`
-- Web QA 截图：`.tmp/web-qa/desktop2.png`、`mobile2.png`
+- Web QA 截图：`.tmp/web-qa/chat-ui-desktop.png`、`.tmp/web-qa/chat-ui-mobile.png`、`.tmp/web-qa/kmp-chat-integration.png`、`.tmp/web-qa/kmp-rich-integration.png`
 - JVM 测试报告：`.tmp/build/shared/reports/tests/jvmTest/`
 
 ## chat-demo v0.1.3
@@ -55,12 +56,13 @@ GitHub Actions 能替代“手边必须有 Mac”的编译步骤，但仍有边�
 
 - 模拟器构建证明 Swift、KMP framework 与 Xcode 工程可编译；不证明真机运行、签名、TestFlight 或 App Store 审核。
 - 真机签名需要 Apple Developer 证书和 provisioning profile，不能把私钥提交到仓库。
-- 当前工作区没有 Git remote，也没有提交；只有推送并触发 Actions 后才能取得真实 CI 结论。
+- 仓库已推送到私有 GitHub 仓库 `DearLicy/deepseek-kmp-client`；首次 Actions 已触发，Linux 任务因 `android-actions/setup-android` 的 `sdkmanager tools` 失败，iOS 任务因缺少 `AppIcon` 失败，两项均已在工作区修复，待下一次推送验证。
 
 ## 仍未完成
 
 - iOS CI 的首次真实结果；Swift/Kotlin Native 之间的 ByteArray 与协议实现需要在 macOS runner 上验收。
 - Android/iOS 录音、ASR、TTS 四音色、音频播放与权限流程。
+- Web 的 chat-demo ZIP 历史导入尚未映射到 KMP 快照存储；界面会明确提示暂不支持，避免写入无法恢复的数据。
 - 搜索时间线、引用位置和完整 Markdown 在不同原生文本组件中的一致呈现。
 - Lottie/AGSL/Metal 等精确动效；当前工程只保留 APK 提取素材和静态规格。
 - 真机视觉、深色模式、动态字体、VoiceOver/TalkBack 和性能验收。

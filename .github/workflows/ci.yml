@@ -1,0 +1,110 @@
+name: Build all clients
+
+on:
+  push:
+    branches: [main, master, 'codex/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deepseek-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  shared-android-web:
+    name: Shared, Android, Web
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' }}
+      - name: Install Android SDK 36
+        run: sdkmanager --install 'platforms;android-36' 'build-tools;36.0.0'
+      - name: Shared tests and Android lint
+        run: ./gradlew :shared:jvmTest :shared:testDebugUnitTest :androidApp:lintDebug :androidApp:assembleDebug --no-daemon --console=plain
+      - name: Install Web dependencies
+        working-directory: web
+        run: npm ci --no-audit --no-fund
+      - name: Web tests and production build
+        working-directory: web
+        run: npm run check
+      - name: Upload Android APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-android-debug
+          path: .tmp/build/androidApp/outputs/apk/debug/androidApp-debug.apk
+          if-no-files-found: error
+      - name: Upload Web build
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-web
+          path: .tmp/web-dist/
+          if-no-files-found: error
+      - name: Upload test reports on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-linux-test-reports
+          path: |
+            .tmp/build/shared/reports/
+            .tmp/build/androidApp/reports/
+          if-no-files-found: ignore
+
+  ios:
+    name: iOS native UI
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' }}
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode project
+        run: ./scripts/prepare_ios.sh
+      - name: Build iOS simulator app
+        run: |
+          xcodebuild \
+            -project .tmp/xcode/DeepSeek.xcodeproj \
+            -scheme DeepSeek \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath .tmp/xcode-derived \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+      - name: Upload iOS simulator app
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-ios-simulator-app
+          path: .tmp/xcode-derived/Build/Products/Debug-iphonesimulator/DeepSeek.app
+          if-no-files-found: error
+      - name: Upload Xcode result bundle on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-ios-build-logs
+          path: |
+            .tmp/logs/
+            .tmp/build/shared/logs/
+          if-no-files-found: ignore

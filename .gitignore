@@ -1,0 +1,24 @@
+/.gradle/
+/.idea/
+/.kotlin/
+/build/
+**/build/
+/local.properties
+.DS_Store
+
+# All reversible analysis inputs and derived tooling live here.
+/.tmp/
+**/node_modules/
+
+# Keep API keys and local secrets out of version control.
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+
+# Python bytecode and local screenshot originals
+__pycache__/
+*.pyc
+/assets/reference/screenshots/*.PNG

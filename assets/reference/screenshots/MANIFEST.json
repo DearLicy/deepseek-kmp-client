@@ -1,0 +1,90 @@
+[
+  {
+    "file": "IMG_5167.PNG",
+    "state": "chat-thinking-expanded",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "ac0638235a690adc5da4448b72e963203aa645e7db7961b5db773a299934b3ca",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5168.PNG",
+    "state": "chat-thinking-collapsed",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "87929c4f69268b27e159a6a0bf13d793a106b2099112a5fa65dc582ca60ab413",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5169.PNG",
+    "state": "chat-search-answer",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "38a9dae27d358c7a7abc8fb6828c863e64ecf2c8f328edb6ce559cf71a104382",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5170.PNG",
+    "state": "chat-search-thinking",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "67caab406bd868d57bbd73fa7922d955acdd39f43ac16d72b3de82098db9d5a1",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5171.PNG",
+    "state": "chat-search-sources",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "9525bd22db51bbc9074aef786d2680ca7d0ef2789041974f3cbfd4d8282904c9",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5156.PNG",
+    "state": "sidebar-empty",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "61cccfbf04a5b624cb5d1fc3dd02bcdf7113bcf67a51288289ab3423d2273dab",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5157.PNG",
+    "state": "chat-welcome",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "8ec894e5a732d16a2619141ec1ff1bbc451a5d53b09d4e3f77023747b795277f",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5158.PNG",
+    "state": "attachment-panel",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "10296e3aeee13a66edd62e1358f1573127cbdbf03a9bfa9ad8a4077225a2c396",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5159.PNG",
+    "state": "voice-hold-button",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "ac6b5e41da5692d53460990f24a9687a7458b3af5706b441010f359c34f64f70",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5160.PNG",
+    "state": "voice-recording",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "8db6b675c0dfd9a3fc7d4fa2f0cd60e3a96c8cc377a3c046282eb13a9ed5f180",
+    "source": "user-provided screenshot"
+  },
+  {
+    "file": "IMG_5166.PNG",
+    "state": "settings",
+    "width_px": 1179,
+    "height_px": 2556,
+    "sha256": "1a8e679f274e4020ec99595a5550c4da0eb5ebfd61997dac338e3c3c9e2796ee",
+    "source": "user-provided screenshot"
+  }
+]

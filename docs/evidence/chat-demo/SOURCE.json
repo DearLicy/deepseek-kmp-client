@@ -1,0 +1,72 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "76a994810b2631900794c4b785bca9ed8fa7b5da7c58fc126925377e11088da0",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "sha256": "6ec1be0d066a613a84422c7e8e9a1f69733026629066255d742dc334a758b2ef",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "18895f3c654f34440e66b920a8815e43d38abaa77bd54d8da0e89c4f7fb987e4",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/api/client.ts",
+    "sha256": "0ba364360f08772f8f3c66ee50c590c8d0798a06a6e536e916f98fb4deb8ff71",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/api/types.ts",
+    "sha256": "169f8ce80fe322d15d7729c6cce9f8b4a2f9ee419b78985a1c02e9f3794d1427",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/api/parseEvent.ts",
+    "sha256": "47867641f0bcb6eaca9401148c7c0f07f3e52c3ba2c532325e5d30036be1ff3f",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/api/sse.ts",
+    "sha256": "a9b22ca7d6480b67b17bad980c0de8ed53d157839e3ae4b94032b34b0039c7ad",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/api/speech.ts",
+    "sha256": "26dc2994797f3b4b7a3efeecc8b580df0608012fdfb99d30863da7dc2815302e",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/attachments.ts",
+    "sha256": "e71386855149d3f366b7f9585492b351681f31338fe985bd8aa8fd5c45775ff8",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/uploadExts.ts",
+    "sha256": "6ac1efc86c4109566999dafeb821c3563202bb6504bf8937929e78271e5b3a48",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/chat/reply.ts",
+    "sha256": "a8c868e19b6e95c125097a6bbf80dddf6612cce56a7e8aaac98233d7a2ae986b",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/chat/view.ts",
+    "sha256": "d70f5b2fcb10c3a8a837d0bb923dea469a1d3b730eaf478b55167987010de75f",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/services/chat/store.ts",
+    "sha256": "ae52523a2f014a54adb91e1446421a2f453555c72f133bc1eb1b16a6d7037a34",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  },
+  {
+    "path": "src/i18n/zh.ts",
+    "sha256": "826c4473d26e63164447ed2306b90b7da24f2c8adfb3f316b037958db2af9c73",
+    "commit": "429af5a4558469496b231631e850fbccc0c30c87"
+  }
+]

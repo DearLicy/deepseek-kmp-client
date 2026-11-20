@@ -102,11 +102,38 @@ jobs:
             -derivedDataPath .tmp/xcode-derived \
             CODE_SIGNING_ALLOWED=NO \
             build
-      - name: Upload iOS simulator app
+      - name: Build unsigned iOS device app
+        run: |
+          xcodebuild \
+            -project .tmp/xcode/DeepSeek.xcodeproj \
+            -scheme DeepSeek \
+            -sdk iphoneos \
+            -configuration Debug \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath .tmp/xcode-derived-device \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            build
+      - name: Package iOS downloads
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent \
+            .tmp/xcode-derived/Build/Products/Debug-iphonesimulator/DeepSeek.app \
+            .tmp/DeepSeek-simulator.zip
+          mkdir -p .tmp/ios-unsigned/Payload
+          cp -R .tmp/xcode-derived-device/Build/Products/Debug-iphoneos/DeepSeek.app \
+            .tmp/ios-unsigned/Payload/DeepSeek.app
+          (cd .tmp/ios-unsigned && zip -qry ../DeepSeek-unsigned.ipa Payload)
+      - name: Upload iOS simulator zip
         uses: actions/upload-artifact@v4
         with:
-          name: deepseek-ios-simulator-app
-          path: .tmp/xcode-derived/Build/Products/Debug-iphonesimulator/DeepSeek.app
+          name: deepseek-ios-simulator-zip
+          path: .tmp/DeepSeek-simulator.zip
+          if-no-files-found: error
+      - name: Upload unsigned iOS IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-ios-unsigned-ipa
+          path: .tmp/DeepSeek-unsigned.ipa
           if-no-files-found: error
       - name: Upload Xcode result bundle on failure
         if: failure()

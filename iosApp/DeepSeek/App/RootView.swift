@@ -91,7 +91,7 @@ struct RootView: View {
                 Spacer()
                 Text("暂无对话").font(.title3.bold())
                 Text("你与 DeepSeek 的对话\n将展示在这里").foregroundStyle(.secondary).multilineTextAlignment(.center)
-                Button("开启新对话") { client.newSession(); withAnimation { drawer = false } }.buttonStyle(.borderedProminent).clipShape(Capsule())
+                Button("开启新对话") { client.startNewSession(); withAnimation { drawer = false } }.buttonStyle(.borderedProminent).clipShape(Capsule())
                 Spacer()
             } else {
                 ScrollView {
@@ -131,7 +131,7 @@ struct RootView: View {
                 circleButton("line.3.horizontal.decrease", "对话列表") { hideKeyboard(); withAnimation { drawer.toggle() } }
                 Text(state.selected?.title ?? "").font(.headline).lineLimit(1)
                 Spacer()
-                circleButton("plus.message", "新对话") { client.newSession() }
+                circleButton("plus.message", "新对话") { client.startNewSession() }
             }.padding(.horizontal, 16).padding(.vertical, 10)
             if let error = state.storageError ?? model.bridgeError { Text(error).font(.footnote).foregroundStyle(.red).padding(8) }
             if !state.ready { Spacer(); ProgressView("正在载入本地记录"); Spacer() }

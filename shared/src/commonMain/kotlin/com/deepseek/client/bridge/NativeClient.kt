@@ -116,7 +116,7 @@ class NativeClient(
     fun input(text: String) { controller.submit(ChatIntent.InputChanged(text)) }
     fun send() { controller.send() }
     fun stop() { controller.stop() }
-    fun newSession() { controller.submit(ChatIntent.NewSession) }
+    fun startNewSession() { controller.submit(ChatIntent.NewSession) }
     fun selectSession(id: String) { controller.submit(ChatIntent.SelectSession(SessionId(id))) }
     fun renameSession(id: String, title: String) { controller.submit(ChatIntent.RenameSession(SessionId(id), title)) }
     fun pinSession(id: String) { controller.submit(ChatIntent.PinSession(SessionId(id))) }

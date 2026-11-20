@@ -56,7 +56,7 @@ GitHub Actions 能替代“手边必须有 Mac”的编译步骤，但仍有边�
 
 - 模拟器构建证明 Swift、KMP framework 与 Xcode 工程可编译；不证明真机运行、签名、TestFlight 或 App Store 审核。
 - 真机签名需要 Apple Developer 证书和 provisioning profile，不能把私钥提交到仓库。
-- 仓库已推送到私有 GitHub 仓库 `DearLicy/deepseek-kmp-client`；首次 Actions 已触发，Linux 任务因 `android-actions/setup-android` 的 `sdkmanager tools` 失败，iOS 任务因缺少 `AppIcon` 失败，两项均已在工作区修复，待下一次推送验证。
+- GitHub Actions `Build all clients` 已在 commit `3375553` 全部通过：Linux 任务产出 Android Debug APK 与 Web 静态包，macOS 任务产出无签名 iOS 模拟器 App。首次运行暴露的 Android SDK 初始化和 iOS `AppIcon` / Swift 桥方法名问题均已修复。
 
 ## 仍未完成
 

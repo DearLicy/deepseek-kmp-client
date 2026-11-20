@@ -1,0 +1,2003 @@
+resource_id	type	name	files
+0x7f010002	anim	abc_grow_fade_in_from_bottom	res/aM.xml
+0x7f010003	anim	abc_popup_enter	res/k_.xml
+0x7f010004	anim	abc_popup_exit	res/UX.xml
+0x7f010005	anim	abc_shrink_fade_out_from_bottom	res/5T.xml
+0x7f01000a	anim	abc_tooltip_enter	res/gR.xml
+0x7f01000b	anim	abc_tooltip_exit	res/vZ.xml
+0x7f01000c	anim	btn_checkbox_to_checked_box_inner_merged_animation	res/h4.xml
+0x7f01000d	anim	btn_checkbox_to_checked_box_outer_merged_animation	res/qx.xml
+0x7f01000e	anim	btn_checkbox_to_checked_icon_null_animation	res/u0.xml
+0x7f01000f	anim	btn_checkbox_to_unchecked_box_inner_merged_animation	res/Ke.xml
+0x7f010010	anim	btn_checkbox_to_unchecked_check_path_merged_animation	res/kj.xml
+0x7f010011	anim	btn_checkbox_to_unchecked_icon_null_animation	res/M7.xml
+0x7f010012	anim	btn_radio_to_off_mtrl_dot_group_animation	res/qz.xml
+0x7f010013	anim	btn_radio_to_off_mtrl_ring_outer_animation	res/K5.xml
+0x7f010014	anim	btn_radio_to_off_mtrl_ring_outer_path_animation	res/9T2.xml
+0x7f010015	anim	btn_radio_to_on_mtrl_dot_group_animation	res/Lf.xml
+0x7f010016	anim	btn_radio_to_on_mtrl_ring_outer_animation	res/9T1.xml
+0x7f010017	anim	btn_radio_to_on_mtrl_ring_outer_path_animation	res/Zg.xml
+0x7f010018	anim	fade_out	res/iC.xml
+0x7f010019	anim	fragment_fast_out_extra_slow_in	res/pU.xml
+0x7f01001a	anim	slide_in_from_left	res/el.xml
+0x7f01001b	anim	slide_in_from_right	res/hx.xml
+0x7f01001f	anim	slide_out_to_left	res/Zx.xml
+0x7f010020	anim	slide_out_to_right	res/H8.xml
+0x7f020000	animator	fragment_close_enter	res/q61.xml
+0x7f020001	animator	fragment_close_exit	res/5z.xml
+0x7f020002	animator	fragment_fade_enter	res/qA.xml
+0x7f020003	animator	fragment_fade_exit	res/4B.xml
+0x7f020004	animator	fragment_open_enter	res/Sc.xml
+0x7f020005	animator	fragment_open_exit	res/BJ1.xml
+0x7f030001	attr	actionBarDivider	
+0x7f030002	attr	actionBarItemBackground	
+0x7f030003	attr	actionBarPopupTheme	
+0x7f030004	attr	actionBarSize	
+0x7f030005	attr	actionBarSplitStyle	
+0x7f030006	attr	actionBarStyle	
+0x7f030007	attr	actionBarTabBarStyle	
+0x7f030008	attr	actionBarTabStyle	
+0x7f030009	attr	actionBarTabTextStyle	
+0x7f03000a	attr	actionBarTheme	
+0x7f03000b	attr	actionBarWidgetTheme	
+0x7f03000c	attr	actionButtonStyle	
+0x7f03000d	attr	actionDropDownStyle	
+0x7f03000e	attr	actionLayout	
+0x7f03000f	attr	actionMenuTextAppearance	
+0x7f030010	attr	actionMenuTextColor	
+0x7f030011	attr	actionModeBackground	
+0x7f030012	attr	actionModeCloseButtonStyle	
+0x7f030013	attr	actionModeCloseContentDescription	
+0x7f030014	attr	actionModeCloseDrawable	
+0x7f030015	attr	actionModeCopyDrawable	
+0x7f030016	attr	actionModeCutDrawable	
+0x7f030017	attr	actionModeFindDrawable	
+0x7f030018	attr	actionModePasteDrawable	
+0x7f030019	attr	actionModePopupWindowStyle	
+0x7f03001a	attr	actionModeSelectAllDrawable	
+0x7f03001b	attr	actionModeShareDrawable	
+0x7f03001c	attr	actionModeSplitBackground	
+0x7f03001d	attr	actionModeStyle	
+0x7f03001e	attr	actionModeTheme	
+0x7f03001f	attr	actionModeWebSearchDrawable	
+0x7f030020	attr	actionOverflowButtonStyle	
+0x7f030021	attr	actionOverflowMenuStyle	
+0x7f030022	attr	actionProviderClass	
+0x7f030023	attr	actionViewClass	
+0x7f030025	attr	activityChooserViewStyle	
+0x7f030027	attr	alertDialogButtonGroupStyle	
+0x7f030028	attr	alertDialogCenterButtons	
+0x7f030029	attr	alertDialogStyle	
+0x7f03002a	attr	alertDialogTheme	
+0x7f03002b	attr	allowStacking	
+0x7f03002c	attr	alpha	
+0x7f03002d	attr	alphabeticModifiers	
+0x7f030031	attr	arrowHeadLength	
+0x7f030032	attr	arrowShaftLength	
+0x7f030033	attr	autoCompleteTextViewStyle	
+0x7f030034	attr	autoSizeMaxTextSize	
+0x7f030035	attr	autoSizeMinTextSize	
+0x7f030036	attr	autoSizePresetSizes	
+0x7f030037	attr	autoSizeStepGranularity	
+0x7f030038	attr	autoSizeTextType	
+0x7f03003e	attr	background	
+0x7f03003f	attr	backgroundSplit	
+0x7f030040	attr	backgroundStacked	
+0x7f030041	attr	backgroundTint	
+0x7f030042	attr	backgroundTintMode	
+0x7f030043	attr	barLength	
+0x7f030044	attr	borderlessButtonStyle	
+0x7f030045	attr	buttonBarButtonStyle	
+0x7f030046	attr	buttonBarNegativeButtonStyle	
+0x7f030047	attr	buttonBarNeutralButtonStyle	
+0x7f030048	attr	buttonBarPositiveButtonStyle	
+0x7f030049	attr	buttonBarStyle	
+0x7f03004a	attr	buttonCompat	
+0x7f03004b	attr	buttonGravity	
+0x7f03004c	attr	buttonIconDimen	
+0x7f03004d	attr	buttonPanelSideLayout	
+0x7f03004f	attr	buttonStyle	
+0x7f030050	attr	buttonStyleSmall	
+0x7f030051	attr	buttonTint	
+0x7f030052	attr	buttonTintMode	
+0x7f030053	attr	checkMarkCompat	
+0x7f030054	attr	checkMarkTint	
+0x7f030055	attr	checkMarkTintMode	
+0x7f030056	attr	checkboxStyle	
+0x7f030057	attr	checkedTextViewStyle	
+0x7f03005a	attr	closeIcon	
+0x7f03005b	attr	closeItemLayout	
+0x7f03005c	attr	collapseContentDescription	
+0x7f03005d	attr	collapseIcon	
+0x7f03005e	attr	color	
+0x7f03005f	attr	colorAccent	
+0x7f030060	attr	colorBackgroundFloating	
+0x7f030061	attr	colorButtonNormal	
+0x7f030062	attr	colorControlActivated	
+0x7f030063	attr	colorControlHighlight	
+0x7f030064	attr	colorControlNormal	
+0x7f030065	attr	colorError	
+0x7f030066	attr	colorPrimary	
+0x7f030067	attr	colorPrimaryDark	
+0x7f030069	attr	colorSwitchThumbNormal	
+0x7f03006a	attr	commitIcon	
+0x7f03006b	attr	contentDescription	
+0x7f03006c	attr	contentInsetEnd	
+0x7f03006d	attr	contentInsetEndWithActions	
+0x7f03006e	attr	contentInsetLeft	
+0x7f03006f	attr	contentInsetRight	
+0x7f030070	attr	contentInsetStart	
+0x7f030071	attr	contentInsetStartWithNavigation	
+0x7f030072	attr	controlBackground	
+0x7f030074	attr	customNavigationLayout	
+0x7f030077	attr	defaultQueryHint	
+0x7f030079	attr	dialogCornerRadius	
+0x7f03007a	attr	dialogPreferredPadding	
+0x7f03007b	attr	dialogTheme	
+0x7f03007c	attr	displayOptions	
+0x7f03007d	attr	divider	
+0x7f03007e	attr	dividerHorizontal	
+0x7f03007f	attr	dividerPadding	
+0x7f030080	attr	dividerVertical	
+0x7f030083	attr	drawableBottomCompat	
+0x7f030084	attr	drawableEndCompat	
+0x7f030085	attr	drawableLeftCompat	
+0x7f030086	attr	drawableRightCompat	
+0x7f030087	attr	drawableSize	
+0x7f030088	attr	drawableStartCompat	
+0x7f030089	attr	drawableTint	
+0x7f03008a	attr	drawableTintMode	
+0x7f03008b	attr	drawableTopCompat	
+0x7f03008c	attr	drawerArrowStyle	
+0x7f03008d	attr	dropDownListViewStyle	
+0x7f03008e	attr	dropdownListPreferredItemHeight	
+0x7f03008f	attr	editTextBackground	
+0x7f030090	attr	editTextColor	
+0x7f030091	attr	editTextStyle	
+0x7f030092	attr	elevation	
+0x7f030096	attr	emojiCompatEnabled	
+0x7f03009d	attr	firstBaselineToTopHeight	
+0x7f03009e	attr	font	
+0x7f03009f	attr	fontFamily	
+0x7f0300a0	attr	fontProviderAuthority	
+0x7f0300a1	attr	fontProviderCerts	
+0x7f0300a2	attr	fontProviderFallbackQuery	
+0x7f0300a3	attr	fontProviderFetchStrategy	
+0x7f0300a4	attr	fontProviderFetchTimeout	
+0x7f0300a5	attr	fontProviderPackage	
+0x7f0300a6	attr	fontProviderQuery	
+0x7f0300a7	attr	fontProviderSystemFontFamily	
+0x7f0300a8	attr	fontStyle	
+0x7f0300a9	attr	fontVariationSettings	
+0x7f0300aa	attr	fontWeight	
+0x7f0300ab	attr	gapBetweenBars	
+0x7f0300ac	attr	goIcon	
+0x7f0300ae	attr	height	
+0x7f0300af	attr	hideOnContentScroll	
+0x7f0300b0	attr	homeAsUpIndicator	
+0x7f0300b1	attr	homeLayout	
+0x7f0300b2	attr	icon	
+0x7f0300b3	attr	iconTint	
+0x7f0300b4	attr	iconTintMode	
+0x7f0300b8	attr	imageButtonStyle	
+0x7f0300b9	attr	implementationMode	
+0x7f0300ba	attr	indeterminateProgressStyle	
+0x7f0300be	attr	isLightTheme	
+0x7f0300bf	attr	itemPadding	
+0x7f0300c6	attr	lStar	
+0x7f0300c7	attr	lastBaselineToBottomHeight	
+0x7f0300c9	attr	layout	
+0x7f0300ca	attr	lineHeight	
+0x7f0300cb	attr	listChoiceBackgroundIndicator	
+0x7f0300cc	attr	listChoiceIndicatorMultipleAnimated	
+0x7f0300cd	attr	listChoiceIndicatorSingleAnimated	
+0x7f0300ce	attr	listDividerAlertDialog	
+0x7f0300cf	attr	listItemLayout	
+0x7f0300d0	attr	listLayout	
+0x7f0300d1	attr	listMenuViewStyle	
+0x7f0300d2	attr	listPopupWindowStyle	
+0x7f0300d3	attr	listPreferredItemHeight	
+0x7f0300d4	attr	listPreferredItemHeightLarge	
+0x7f0300d5	attr	listPreferredItemHeightSmall	
+0x7f0300d6	attr	listPreferredItemPaddingEnd	
+0x7f0300d7	attr	listPreferredItemPaddingLeft	
+0x7f0300d8	attr	listPreferredItemPaddingRight	
+0x7f0300d9	attr	listPreferredItemPaddingStart	
+0x7f0300da	attr	logo	
+0x7f0300db	attr	logoDescription	
+0x7f0300f4	attr	maxButtonHeight	
+0x7f0300f5	attr	measureWithLargestChild	
+0x7f0300f6	attr	menu	
+0x7f0300f8	attr	multiChoiceItemLayout	
+0x7f0300fa	attr	navigationContentDescription	
+0x7f0300fb	attr	navigationIcon	
+0x7f0300fc	attr	navigationMode	
+0x7f0300fd	attr	nestedScrollViewStyle	
+0x7f0300ff	attr	numericModifiers	
+0x7f030100	attr	overlapAnchor	
+0x7f030101	attr	paddingBottomNoButtons	
+0x7f030102	attr	paddingEnd	
+0x7f030103	attr	paddingStart	
+0x7f030104	attr	paddingTopNoTitle	
+0x7f030105	attr	panelBackground	
+0x7f030106	attr	panelMenuListTheme	
+0x7f030107	attr	panelMenuListWidth	
+0x7f03010e	attr	popupMenuStyle	
+0x7f03010f	attr	popupTheme	
+0x7f030110	attr	popupWindowStyle	
+0x7f030111	attr	preserveIconSpacing	
+0x7f030113	attr	progressBarPadding	
+0x7f030114	attr	progressBarStyle	
+0x7f030115	attr	queryBackground	
+0x7f030118	attr	radioButtonStyle	
+0x7f030119	attr	ratingBarStyle	
+0x7f03011a	attr	ratingBarStyleIndicator	
+0x7f03011b	attr	ratingBarStyleSmall	
+0x7f03011e	attr	scaleType	
+0x7f030120	attr	searchHintIcon	
+0x7f030121	attr	searchIcon	
+0x7f030122	attr	searchViewStyle	
+0x7f030125	attr	seekBarStyle	
+0x7f030126	attr	selectableItemBackground	
+0x7f030127	attr	selectableItemBackgroundBorderless	
+0x7f030129	attr	showAsAction	
+0x7f03012a	attr	showDividers	
+0x7f03012b	attr	showText	
+0x7f03012c	attr	showTitle	
+0x7f03012d	attr	singleChoiceItemLayout	
+0x7f03012e	attr	spinBars	
+0x7f03012f	attr	spinnerDropDownItemStyle	
+0x7f030130	attr	spinnerStyle	
+0x7f03013c	attr	srcCompat	
+0x7f030140	attr	subMenuArrow	
+0x7f030141	attr	submitBackground	
+0x7f030142	attr	subtitle	
+0x7f030143	attr	subtitleTextAppearance	
+0x7f030144	attr	subtitleTextColor	
+0x7f030145	attr	subtitleTextStyle	
+0x7f030146	attr	suggestionRowLayout	
+0x7f030149	attr	switchPadding	
+0x7f03014a	attr	switchStyle	
+0x7f03014b	attr	switchTextAppearance	
+0x7f03014e	attr	textAllCaps	
+0x7f03014f	attr	textAppearanceLargePopupMenu	
+0x7f030150	attr	textAppearanceListItem	
+0x7f030151	attr	textAppearanceListItemSecondary	
+0x7f030152	attr	textAppearanceListItemSmall	
+0x7f030153	attr	textAppearancePopupMenuHeader	
+0x7f030154	attr	textAppearanceSearchResultSubtitle	
+0x7f030155	attr	textAppearanceSearchResultTitle	
+0x7f030156	attr	textAppearanceSmallPopupMenu	
+0x7f030157	attr	textColorAlertDialogListItem	
+0x7f030158	attr	textColorSearchUrl	
+0x7f030159	attr	textLocale	
+0x7f03015a	attr	theme	
+0x7f03015b	attr	thickness	
+0x7f03015f	attr	tickMark	
+0x7f030160	attr	tickMarkTint	
+0x7f030161	attr	tickMarkTintMode	
+0x7f030162	attr	tint	
+0x7f030163	attr	tintMode	
+0x7f030164	attr	title	
+0x7f030165	attr	titleMargin	
+0x7f030166	attr	titleMarginBottom	
+0x7f030167	attr	titleMarginEnd	
+0x7f030168	attr	titleMarginStart	
+0x7f030169	attr	titleMarginTop	
+0x7f03016a	attr	titleMargins	
+0x7f03016b	attr	titleTextAppearance	
+0x7f03016c	attr	titleTextColor	
+0x7f03016d	attr	titleTextStyle	
+0x7f03016e	attr	toolbarNavigationButtonStyle	
+0x7f03016f	attr	toolbarStyle	
+0x7f030170	attr	tooltipForegroundColor	
+0x7f030171	attr	tooltipFrameBackground	
+0x7f030172	attr	tooltipText	
+0x7f030173	attr	track	
+0x7f030176	attr	ttcIndex	
+0x7f030178	attr	viewInflaterClass	
+0x7f030179	attr	voiceIcon	
+0x7f03017a	attr	windowActionBar	
+0x7f03017b	attr	windowActionBarOverlay	
+0x7f03017c	attr	windowActionModeOverlay	
+0x7f03017d	attr	windowFixedHeightMajor	
+0x7f03017e	attr	windowFixedHeightMinor	
+0x7f03017f	attr	windowFixedWidthMajor	
+0x7f030180	attr	windowFixedWidthMinor	
+0x7f030181	attr	windowMinWidthMajor	
+0x7f030182	attr	windowMinWidthMinor	
+0x7f030183	attr	windowNoTitle	
+0x7f040000	bool	abc_action_bar_embed_tabs	
+0x7f050004	color	abc_color_highlight_material	res/color-v23/abc_color_highlight_material.xml
+0x7f050007	color	abc_hint_foreground_material_dark	res/color/abc_hint_foreground_material_dark.xml
+0x7f050008	color	abc_hint_foreground_material_light	res/color/abc_hint_foreground_material_light.xml
+0x7f05000b	color	abc_primary_text_material_dark	res/color/abc_primary_text_material_dark.xml
+0x7f05000c	color	abc_primary_text_material_light	res/color/abc_primary_text_material_light.xml
+0x7f05000d	color	abc_search_url_text	res/color/abc_search_url_text.xml
+0x7f05000e	color	abc_search_url_text_normal	
+0x7f05000f	color	abc_search_url_text_pressed	
+0x7f050010	color	abc_search_url_text_selected	
+0x7f050013	color	abc_tint_btn_checkable	res/color-v23/abc_tint_btn_checkable.xml
+0x7f050014	color	abc_tint_default	res/color-v23/abc_tint_default.xml
+0x7f050015	color	abc_tint_edittext	res/color-v23/abc_tint_edittext.xml
+0x7f050016	color	abc_tint_seek_thumb	res/color-v23/abc_tint_seek_thumb.xml
+0x7f050017	color	abc_tint_spinner	res/color-v23/abc_tint_spinner.xml
+0x7f050018	color	abc_tint_switch_track	res/color-v23/abc_tint_switch_track.xml
+0x7f050019	color	accent_material_dark	
+0x7f05001a	color	accent_material_light	
+0x7f05001d	color	background_floating_material_dark	
+0x7f05001e	color	background_floating_material_light	
+0x7f05002d	color	button_material_dark	
+0x7f05002e	color	button_material_light	
+0x7f050030	color	call_notification_control_background	
+0x7f050031	color	call_notification_control_foreground	
+0x7f050032	color	call_notification_control_ripple	
+0x7f050034	color	call_notification_hangup_foreground	
+0x7f050035	color	call_notification_label_primary	
+0x7f05003b	color	colorTransparent	
+0x7f05004f	color	error_color_material_dark	
+0x7f050050	color	error_color_material_light	
+0x7f050051	color	foreground_material_dark	
+0x7f050052	color	foreground_material_light	
+0x7f050055	color	ic_launcher_background	
+0x7f050059	color	material_deep_teal_200	
+0x7f05005a	color	material_deep_teal_500	
+0x7f05005b	color	material_grey_100	
+0x7f05005e	color	material_grey_600	
+0x7f05005f	color	material_grey_800	
+0x7f050061	color	material_grey_900	
+0x7f050064	color	primary	
+0x7f050065	color	primary_dark_material_dark	
+0x7f050066	color	primary_dark_material_light	
+0x7f050067	color	primary_material_dark	
+0x7f050068	color	primary_material_light	
+0x7f050069	color	primary_text_default_material_dark	
+0x7f05006a	color	primary_text_default_material_light	
+0x7f05006b	color	primary_text_disabled_material_dark	
+0x7f05006c	color	primary_text_disabled_material_light	
+0x7f05006d	color	ripple_material_dark	
+0x7f05006e	color	ripple_material_light	
+0x7f050073	color	splashscreenBackground	
+0x7f050075	color	switch_thumb_disabled_material_dark	
+0x7f050076	color	switch_thumb_disabled_material_light	
+0x7f050077	color	switch_thumb_material_dark	res/color/switch_thumb_material_dark.xml
+0x7f050078	color	switch_thumb_material_light	res/color/switch_thumb_material_light.xml
+0x7f050079	color	switch_thumb_normal_material_dark	
+0x7f05007a	color	switch_thumb_normal_material_light	
+0x7f05007b	color	tooltip_background_dark	
+0x7f05007c	color	tooltip_background_light	
+0x7f060000	dimen	abc_action_bar_content_inset_material	
+0x7f060001	dimen	abc_action_bar_content_inset_with_nav	
+0x7f060002	dimen	abc_action_bar_default_height_material	
+0x7f060003	dimen	abc_action_bar_default_padding_end_material	
+0x7f060004	dimen	abc_action_bar_default_padding_start_material	
+0x7f060005	dimen	abc_action_bar_elevation_material	
+0x7f06000c	dimen	abc_action_bar_subtitle_top_margin_material	
+0x7f060010	dimen	abc_alert_dialog_button_bar_height	
+0x7f060011	dimen	abc_alert_dialog_button_dimen	
+0x7f060012	dimen	abc_button_inset_horizontal_material	
+0x7f060013	dimen	abc_button_inset_vertical_material	
+0x7f060014	dimen	abc_button_padding_horizontal_material	
+0x7f060015	dimen	abc_button_padding_vertical_material	
+0x7f060016	dimen	abc_cascading_menus_min_smallest_width	
+0x7f060017	dimen	abc_config_prefDialogWidth	
+0x7f060018	dimen	abc_control_corner_material	
+0x7f060019	dimen	abc_control_inset_material	
+0x7f06001a	dimen	abc_control_padding_material	
+0x7f06001b	dimen	abc_dialog_corner_radius_material	
+0x7f060020	dimen	abc_dialog_list_padding_bottom_no_buttons	
+0x7f060021	dimen	abc_dialog_list_padding_top_no_title	
+0x7f060022	dimen	abc_dialog_min_width_major	
+0x7f060023	dimen	abc_dialog_min_width_minor	
+0x7f060024	dimen	abc_dialog_padding_material	
+0x7f060025	dimen	abc_dialog_padding_top_material	
+0x7f060026	dimen	abc_dialog_title_divider_material	
+0x7f060029	dimen	abc_dropdownitem_icon_width	
+0x7f06002a	dimen	abc_dropdownitem_text_padding_left	
+0x7f06002b	dimen	abc_dropdownitem_text_padding_right	
+0x7f06002c	dimen	abc_edit_text_inset_bottom_material	
+0x7f06002d	dimen	abc_edit_text_inset_horizontal_material	
+0x7f06002e	dimen	abc_edit_text_inset_top_material	
+0x7f06002f	dimen	abc_floating_window_z	
+0x7f060030	dimen	abc_list_item_height_large_material	
+0x7f060031	dimen	abc_list_item_height_material	
+0x7f060032	dimen	abc_list_item_height_small_material	
+0x7f060033	dimen	abc_list_item_padding_horizontal_material	
+0x7f060034	dimen	abc_panel_menu_list_width	
+0x7f060035	dimen	abc_progress_bar_height_material	
+0x7f06003a	dimen	abc_select_dialog_padding_start_material	
+0x7f06003b	dimen	abc_star_big	
+0x7f06003c	dimen	abc_star_medium	
+0x7f06003d	dimen	abc_star_small	
+0x7f06003e	dimen	abc_switch_padding	
+0x7f06004a	dimen	abc_text_size_menu_header_material	
+0x7f06005d	dimen	highlight_alpha_material_colored	
+0x7f060060	dimen	hint_alpha_material_dark	
+0x7f060061	dimen	hint_alpha_material_light	
+0x7f060062	dimen	hint_pressed_alpha_material_dark	
+0x7f060063	dimen	hint_pressed_alpha_material_light	
+0x7f060073	dimen	tooltip_corner_radius	
+0x7f060074	dimen	tooltip_horizontal_padding	
+0x7f060075	dimen	tooltip_margin	
+0x7f060076	dimen	tooltip_precise_anchor_extra_offset	
+0x7f060077	dimen	tooltip_precise_anchor_threshold	
+0x7f060078	dimen	tooltip_vertical_padding	
+0x7f060079	dimen	tooltip_y_offset_non_touch	
+0x7f06007a	dimen	tooltip_y_offset_touch	
+0x7f070000	drawable	$ic_color_wechat__0	res/QM.xml
+0x7f070001	drawable	$ic_color_wechat__1	res/wf.xml
+0x7f070002	drawable	$ic_launcher_foreground__0	res/9s.xml
+0x7f070003	drawable	$ic_loading__0	res/3C.xml
+0x7f070006	drawable	$ic_type_pdf__0	res/vu.xml
+0x7f070007	drawable	$ic_type_pic__0	res/35.xml
+0x7f070008	drawable	$ic_type_text__0	res/7M.xml
+0x7f070009	drawable	$ic_type_xls__0	res/c7.xml
+0x7f07000a	drawable	$ic_wechat_share__0	res/iB.xml
+0x7f07000b	drawable	abc_ab_share_pack_mtrl_alpha	res/0c.9.png,res/5D.9.png,res/JJ.9.png,res/op.9.png
+0x7f07000c	drawable	abc_action_bar_item_background_material	res/XY.xml
+0x7f07000d	drawable	abc_btn_borderless_material	res/xj.xml
+0x7f07000e	drawable	abc_btn_check_material	res/sA.xml
+0x7f07000f	drawable	abc_btn_check_material_anim	res/oP.xml
+0x7f070010	drawable	abc_btn_check_to_on_mtrl_000	res/w_.png,res/6t.png,res/-B.png,res/FW.png,res/pk.png
+0x7f070011	drawable	abc_btn_check_to_on_mtrl_015	res/tS.png,res/dY.png,res/d3.png,res/9z.png,res/tG.png
+0x7f070012	drawable	abc_btn_colored_material	res/Eg.xml
+0x7f070013	drawable	abc_btn_default_mtrl_shape	res/9T.xml
+0x7f070014	drawable	abc_btn_radio_material	res/Jl.xml
+0x7f070015	drawable	abc_btn_radio_material_anim	res/kn.xml
+0x7f070016	drawable	abc_btn_radio_to_on_mtrl_000	res/zE.png,res/7i.png,res/o_.png,res/Gf.png,res/j4.png
+0x7f070017	drawable	abc_btn_radio_to_on_mtrl_015	res/eR.png,res/RV.png,res/Th.png,res/nf1.png,res/8h.png
+0x7f070018	drawable	abc_btn_switch_to_on_mtrl_00001	res/ut.9.png,res/h7.9.png,res/io.9.png,res/zV.9.png,res/NA.9.png
+0x7f070019	drawable	abc_btn_switch_to_on_mtrl_00012	res/fM.9.png,res/G2.9.png,res/1J.9.png,res/qD.9.png,res/MF.9.png
+0x7f07001a	drawable	abc_cab_background_internal_bg	res/YW.xml
+0x7f07001b	drawable	abc_cab_background_top_material	res/27.xml
+0x7f07001c	drawable	abc_cab_background_top_mtrl_alpha	res/K_.9.png,res/sg.9.png,res/BL.9.png,res/gj.9.png
+0x7f07001d	drawable	abc_control_background_material	res/V7.xml
+0x7f07001e	drawable	abc_dialog_material_background	res/tL.xml,res/7N.xml
+0x7f07001f	drawable	abc_edit_text_material	res/GK.xml
+0x7f070020	drawable	abc_ic_ab_back_material	res/4_.xml
+0x7f070021	drawable	abc_ic_arrow_drop_right_black_24dp	res/ZN1.xml
+0x7f070022	drawable	abc_ic_clear_material	res/VN.xml
+0x7f070023	drawable	abc_ic_commit_search_api_mtrl_alpha	res/_q1.png,res/Wh.png,res/iO.png,res/kp.png
+0x7f070024	drawable	abc_ic_go_search_api_material	res/BJ.xml
+0x7f070025	drawable	abc_ic_menu_copy_mtrl_am_alpha	res/ZL1.xml
+0x7f070026	drawable	abc_ic_menu_cut_mtrl_alpha	res/GD.xml
+0x7f070028	drawable	abc_ic_menu_paste_mtrl_am_alpha	res/Qd.xml
+0x7f070029	drawable	abc_ic_menu_selectall_mtrl_alpha	res/cm.xml
+0x7f07002a	drawable	abc_ic_menu_share_mtrl_alpha	res/Qt.xml
+0x7f07002b	drawable	abc_ic_search_api_material	res/D51.xml
+0x7f07002c	drawable	abc_ic_voice_search_api_material	res/GC.xml
+0x7f07002d	drawable	abc_item_background_holo_dark	res/t8.xml
+0x7f07002e	drawable	abc_item_background_holo_light	res/Gt.xml
+0x7f07002f	drawable	abc_list_divider_material	res/bb.xml
+0x7f070030	drawable	abc_list_divider_mtrl_alpha	res/hZ.9.png,res/ej.9.png,res/jS1.9.png,res/1e.9.png
+0x7f070031	drawable	abc_list_focused_holo	res/UE.9.png,res/bX.9.png,res/CK.9.png,res/s3.9.png
+0x7f070032	drawable	abc_list_longpressed_holo	res/SV.9.png,res/hh.9.png,res/42.9.png,res/X3.9.png
+0x7f070033	drawable	abc_list_pressed_holo_dark	res/Pg.9.png,res/v4.9.png,res/0x.9.png,res/Y7.9.png
+0x7f070034	drawable	abc_list_pressed_holo_light	res/8h.9.png,res/tU.9.png,res/Yt.9.png,res/x3.9.png
+0x7f070035	drawable	abc_list_selector_background_transition_holo_dark	res/Cg.xml
+0x7f070036	drawable	abc_list_selector_background_transition_holo_light	res/MO.xml
+0x7f070037	drawable	abc_list_selector_disabled_holo_dark	res/py.9.png,res/ev.9.png,res/jS.9.png,res/o9.9.png
+0x7f070038	drawable	abc_list_selector_disabled_holo_light	res/W4.9.png,res/ZN.9.png,res/65.9.png,res/3u.9.png
+0x7f070039	drawable	abc_list_selector_holo_dark	res/L_.xml
+0x7f07003a	drawable	abc_list_selector_holo_light	res/0M.xml
+0x7f07003b	drawable	abc_menu_hardkey_panel_mtrl_mult	res/33.9.png,res/Pa.9.png,res/uL.9.png,res/Li.9.png
+0x7f07003c	drawable	abc_popup_background_mtrl_mult	res/Nk.9.png,res/rj.9.png,res/IX.9.png,res/1I.9.png
+0x7f07003d	drawable	abc_ratingbar_indicator_material	res/aW.xml
+0x7f07003e	drawable	abc_ratingbar_material	res/XW.xml
+0x7f07003f	drawable	abc_ratingbar_small_material	res/QZ.xml
+0x7f070040	drawable	abc_scrubber_control_off_mtrl_alpha	res/BM.png,res/4k.png,res/m0.png,res/NG.png
+0x7f070041	drawable	abc_scrubber_control_to_pressed_mtrl_000	res/2d.png,res/Wz.png,res/dW.png,res/s0.png,res/KM.png
+0x7f070042	drawable	abc_scrubber_control_to_pressed_mtrl_005	res/qp.png,res/ly.png,res/ar.png,res/49.png,res/Pb.png
+0x7f070043	drawable	abc_scrubber_primary_mtrl_alpha	res/YG.9.png,res/gt.9.png,res/kJ.9.png,res/62.9.png
+0x7f070044	drawable	abc_scrubber_track_mtrl_alpha	res/xR.9.png,res/uj.9.png,res/tZ.9.png,res/nI.9.png
+0x7f070045	drawable	abc_seekbar_thumb_material	res/j3.xml
+0x7f070046	drawable	abc_seekbar_tick_mark_material	res/Xx.xml
+0x7f070047	drawable	abc_seekbar_track_material	res/bL.xml
+0x7f070048	drawable	abc_spinner_mtrl_am_alpha	res/Tj.9.png,res/eT.9.png,res/7I.9.png,res/mm.9.png,res/aU.9.png,res/z9.9.png,res/gZ.9.png,res/7o.9.png,res/7C.9.png,res/wL.9.png
+0x7f070049	drawable	abc_spinner_textfield_background_material	res/nT.xml
+0x7f07004a	drawable	abc_star_black_48dp	res/cL.xml
+0x7f07004b	drawable	abc_star_half_black_48dp	res/9P.xml
+0x7f07004c	drawable	abc_switch_thumb_material	res/7H.xml
+0x7f07004d	drawable	abc_switch_track_mtrl_alpha	res/yg.9.png,res/iR.9.png,res/KH.9.png,res/d5.9.png,res/7_.9.png
+0x7f07004e	drawable	abc_tab_indicator_material	res/In.xml
+0x7f07004f	drawable	abc_tab_indicator_mtrl_alpha	res/i6.9.png,res/BG.9.png,res/lP.9.png,res/uu.9.png,res/Gt.9.png
+0x7f070050	drawable	abc_text_cursor_material	res/XK.xml
+0x7f070051	drawable	abc_text_select_handle_left_mtrl	res/H-.png,res/te.png,res/Wr.png,res/Z8.png,res/u3.png
+0x7f070052	drawable	abc_text_select_handle_middle_mtrl	res/EP.png,res/5U.png,res/g-.png,res/jW.png
+0x7f070053	drawable	abc_text_select_handle_right_mtrl	res/xH.png,res/2P.png,res/-N.png,res/UR.png,res/MQ.png
+0x7f070054	drawable	abc_textfield_activated_mtrl_alpha	res/vz.9.png,res/Yw.9.png,res/QJ.9.png,res/No.9.png
+0x7f070055	drawable	abc_textfield_default_mtrl_alpha	res/D_.9.png,res/9X.9.png,res/9N.9.png,res/EA.9.png
+0x7f070056	drawable	abc_textfield_search_activated_mtrl_alpha	res/Su.9.png,res/DL.9.png,res/yH.9.png,res/X4.9.png
+0x7f070057	drawable	abc_textfield_search_default_mtrl_alpha	res/ps.9.png,res/9n.9.png,res/NZ.9.png,res/yY.9.png
+0x7f070058	drawable	abc_textfield_search_material	res/4u.xml
+0x7f070059	drawable	abc_vector_test	res/hq.xml
+0x7f07005a	drawable	assistant_message_avatar	res/Fi.xml
+0x7f07005c	drawable	bg_call_notification_button	res/ZN.xml
+0x7f07005d	drawable	btn_checkbox_checked_mtrl	res/80.xml
+0x7f07005e	drawable	btn_checkbox_checked_to_unchecked_mtrl_animation	res/rW.xml
+0x7f07005f	drawable	btn_checkbox_unchecked_mtrl	res/U8.xml
+0x7f070060	drawable	btn_checkbox_unchecked_to_checked_mtrl_animation	res/6Q.xml
+0x7f070061	drawable	btn_radio_off_mtrl	res/Nu.xml
+0x7f070062	drawable	btn_radio_off_to_on_mtrl_animation	res/A4.xml
+0x7f070063	drawable	btn_radio_on_mtrl	res/Ol1.xml
+0x7f070064	drawable	btn_radio_on_to_off_mtrl_animation	res/rx.xml
+0x7f070065	drawable	chat_welcome_logo	res/Oc.xml
+0x7f070066	drawable	check_regular	res/w7.png,res/He.png,res/1c.png,res/hT1.png,res/bn.png,res/TX.png,res/36.xml
+0x7f070067	drawable	common_full_open_on_phone	res/ZI.png,res/iQ.png
+0x7f07007a	drawable	crop	res/6y.xml
+0x7f07007b	drawable	deepseek_logo_title	res/Hk.xml
+0x7f07007e	drawable	ic_add_close_regular	res/Xq.png,res/uf.png,res/Eo.png,res/zi.png,res/rJ.png,res/rH.png,res/za.xml
+0x7f07007f	drawable	ic_add_outline_26	res/Je.xml
+0x7f070081	drawable	ic_apple	res/7u.xml
+0x7f070084	drawable	ic_arrow_right_outline_20	res/Gy.xml
+0x7f070089	drawable	ic_auth_phone	res/z1.xml
+0x7f07008b	drawable	ic_avatar_laydown	res/iw.xml
+0x7f07008d	drawable	ic_branch_outline_20	res/zH.png,res/Q4.png,res/Yz.png,res/BT.png,res/G5.png,res/qj.png,res/sj.xml
+0x7f07008e	drawable	ic_browse_outline_16	res/vC.xml
+0x7f07008f	drawable	ic_browse_warning_outline_16	res/VG.xml
+0x7f070094	drawable	ic_call_collapse_vector	res/HM.xml
+0x7f070097	drawable	ic_call_hang_up	res/Ik.xml
+0x7f070098	drawable	ic_call_live_update_hang_up	res/f8.xml
+0x7f070099	drawable	ic_call_live_update_mic	res/zT.xml
+0x7f07009a	drawable	ic_call_live_update_mute	res/z4.xml
+0x7f07009b	drawable	ic_call_network_poor	res/z2.xml
+0x7f07009c	drawable	ic_call_redial	res/rs.xml
+0x7f07009d	drawable	ic_camera_outline_20	res/JO.xml
+0x7f07009f	drawable	ic_cancel_search_outline_20	res/ej.png,res/44.png,res/_j.png,res/F4.png,res/f6.png,res/M2.png,res/3W.xml
+0x7f0700a0	drawable	ic_cc_outline_20	res/DN.xml
+0x7f0700a2	drawable	ic_check_outline_20	res/cP.xml
+0x7f0700a4	drawable	ic_checked_filled_16	res/Ol.xml
+0x7f0700a5	drawable	ic_checklist_outline_10	res/NQ.xml
+0x7f0700a6	drawable	ic_checklist_outline_16	res/Y4.xml
+0x7f0700a7	drawable	ic_checklist_outline_24	res/Tf.xml
+0x7f0700a8	drawable	ic_chevron_down_outline_20	res/SF.xml
+0x7f0700a9	drawable	ic_chevron_expand_vertical_outline_20	res/sl.xml
+0x7f0700ab	drawable	ic_chevron_left_outline_20	res/7p.xml
+0x7f0700ac	drawable	ic_chevron_left_outline_20_small	res/cN.xml
+0x7f0700ae	drawable	ic_chevron_left_small_outline_16	res/DF.xml
+0x7f0700af	drawable	ic_chevron_right_fill	res/5q.xml
+0x7f0700b0	drawable	ic_chevron_right_outline_20	res/u2.xml
+0x7f0700b1	drawable	ic_chevron_right_outline_20_small	res/Zq.xml
+0x7f0700b2	drawable	ic_chevron_up_fill	res/2-.xml
+0x7f0700b4	drawable	ic_close_mid_outline_20	res/p6.xml
+0x7f0700b5	drawable	ic_close_outline_16	res/x5.xml
+0x7f0700b6	drawable	ic_close_outline_20	res/Yv.xml
+0x7f0700b7	drawable	ic_close_outline_24	res/v9.xml
+0x7f0700b8	drawable	ic_close_regular	res/xf1.png,res/ZX.png,res/ko.png,res/sv.png,res/lL.png,res/Lm.png,res/pR.xml
+0x7f0700ba	drawable	ic_color_google	res/VG.png,res/NI.png,res/E-1.png,res/gq.png,res/PI.png,res/oM.png,res/xi.xml
+0x7f0700bb	drawable	ic_color_wechat	res/6K.png,res/jp.png,res/u5.png,res/FZ.png,res/vq.png,res/cv.png,res/Sv.xml
+0x7f0700bc	drawable	ic_copy_outline	res/N0.png,res/2W.png,res/Ta.png,res/RE1.png,res/_q.png,res/7L.png,res/B9.xml
+0x7f0700be	drawable	ic_crop_outline_24	res/bp.png,res/JP.png,res/ca.png,res/hE.png,res/pW1.png,res/uD.png,res/p7.xml
+0x7f0700bf	drawable	ic_data_regular	res/pt.png,res/Gy.png,res/di.png,res/M_.png,res/hC.png,res/8X.png,res/6z.xml
+0x7f0700c0	drawable	ic_dislike_fill	res/3c.xml
+0x7f0700c2	drawable	ic_dislike_outline	res/Vs.xml
+0x7f0700c5	drawable	ic_download_outline	res/et.xml
+0x7f0700c6	drawable	ic_download_outline_20	res/20.xml
+0x7f0700c8	drawable	ic_ds_new_chat_outline_20	res/cF.xml
+0x7f0700c9	drawable	ic_ds_search_outline_16	res/19.xml
+0x7f0700ca	drawable	ic_ds_user_outline_14	res/Zj.xml
+0x7f0700cb	drawable	ic_edit_outline_20	res/hv.xml
+0x7f0700cc	drawable	ic_ellipsis	res/aI.png,res/YX.png,res/Tu.png,res/u1.png,res/f0.png,res/QY.png,res/aO.xml
+0x7f0700cd	drawable	ic_ellipsis_outline	res/kg.xml
+0x7f0700ce	drawable	ic_empty_icon_container	res/tQ.xml
+0x7f0700cf	drawable	ic_enhance_outline_20	res/ND.xml
+0x7f0700d0	drawable	ic_excerpt_quote	res/Wv.xml
+0x7f0700d1	drawable	ic_exit_out_regular	res/Ks.png,res/o0.png,res/rg.png,res/1_.png,res/MK.png,res/xj.png,res/IH.xml
+0x7f0700d2	drawable	ic_expert_filled_16	res/ET.png,res/y1.png,res/Lt.png,res/xf.png,res/lW.png,res/UJ.png,res/CU.xml
+0x7f0700d3	drawable	ic_expert_outline_16	res/Cn.xml
+0x7f0700d4	drawable	ic_eye_close_regular	res/_W.xml
+0x7f0700d5	drawable	ic_eye_regular	res/5F.png,res/xz.png,res/M1.png,res/XG.png,res/0B.png,res/Kj.png,res/h5.xml
+0x7f0700d7	drawable	ic_flash_auto_fill_24	res/TO.png,res/K6.png,res/fC.png,res/7e.png,res/QF.png,res/8U.png,res/Pa.xml
+0x7f0700d8	drawable	ic_flash_filled_16	res/MV.xml
+0x7f0700d9	drawable	ic_flash_off_fill_24	res/5Z.xml
+0x7f0700da	drawable	ic_flash_on_fill_24	res/Zy.xml
+0x7f0700db	drawable	ic_flash_outline_16	res/9W.xml
+0x7f0700dc	drawable	ic_folder_outline_20	res/Be1.xml
+0x7f0700dd	drawable	ic_font_size_large	res/Vi.xml
+0x7f0700de	drawable	ic_font_size_small	res/k3.xml
+0x7f0700df	drawable	ic_fullscreen_outline	res/CB.xml
+0x7f0700e0	drawable	ic_globe_language_outline_16	res/dS.png,res/Dz.png,res/881.png,res/o-.png,res/fr.png,res/kC.png,res/Y2.xml
+0x7f0700e1	drawable	ic_globe_language_outline_20	res/Lk.png,res/TS.png,res/dE.png,res/tx.png,res/aH.png,res/ts.png,res/Q0.xml
+0x7f0700e2	drawable	ic_globe_language_regular	res/g4.png,res/Dd.png,res/VX.png,res/QD.png,res/A81.png,res/93.png,res/Qi.xml
+0x7f0700e4	drawable	ic_help_outline	res/Eh.xml
+0x7f0700e6	drawable	ic_info_outline	res/mg.png,res/A8.png,res/C_.png,res/EZ.png,res/W0.png,res/Ei.png,res/X-.xml
+0x7f0700e7	drawable	ic_info_outline_16	res/Sa.xml
+0x7f0700ee	drawable	ic_keyboard_outline_26	res/9_.xml
+0x7f0700ef	drawable	ic_keyboard_voice_24	res/Ch.xml
+0x7f0700f0	drawable	ic_lasso_select_outline_24	res/2Y.xml
+0x7f0700f1	drawable	ic_launcher_foreground	res/PF.xml
+0x7f0700f2	drawable	ic_letter_regular	res/XA.png,res/8i.png,res/3K.png,res/tX.png,res/dv.png,res/0K.png,res/q9.xml
+0x7f0700f4	drawable	ic_like_fill	res/Ya.xml
+0x7f0700f6	drawable	ic_like_outline	res/6g.xml
+0x7f0700f8	drawable	ic_link_empty_outline_24	res/_v.xml
+0x7f0700f9	drawable	ic_link_outline_20	res/8e.xml
+0x7f0700fb	drawable	ic_list_pen_regular	res/kV1.png,res/OZ.png,res/nf.png,res/gA.png,res/Oo.png,res/2c.png,res/SD.xml
+0x7f0700fc	drawable	ic_loading	res/Pt.png,res/hm.png,res/9m.png,res/4a.png,res/AK.png,res/w0.png,res/hs.xml
+0x7f0700fe	drawable	ic_lock_fill	res/3o.png,res/Wa.png,res/t1.png,res/4P.png,res/qh.png,res/LA.png,res/_o1.xml
+0x7f070100	drawable	ic_logo_deepseek_vertical	res/sb.png,res/v0.png,res/V0.png,res/WX.png,res/lA.png,res/7c.png,res/sH.xml
+0x7f070102	drawable	ic_menu_outline_24	res/uI.xml
+0x7f070105	drawable	ic_mic_filled_20	res/2D.xml
+0x7f070106	drawable	ic_moon_regular	res/8N.xml
+0x7f070107	drawable	ic_mute_audio_outline_24	res/YF.png,res/Rb1.png,res/hy.png,res/do.png,res/E-.png,res/qm.png,res/Bb.xml
+0x7f070108	drawable	ic_mute_filled_20	res/TH.xml
+0x7f070109	drawable	ic_new_chat_outline_24	res/2b.xml
+0x7f07010a	drawable	ic_new_chat_outline_24_white	res/mi.xml
+0x7f07010c	drawable	ic_notification	res/hQ.png,res/gB.png,res/o2.png,res/WR.png,res/hn.xml
+0x7f07010e	drawable	ic_paperclip_outline_20	res/ur.xml
+0x7f070113	drawable	ic_phone_fill	res/dW.xml
+0x7f070115	drawable	ic_phone_outline_24	res/yj.xml
+0x7f070116	drawable	ic_phone_regular	res/mJ.xml
+0x7f070117	drawable	ic_phone_rotate_vertical_outline	res/ol.xml
+0x7f070118	drawable	ic_photo_empty_outline	res/oq.xml
+0x7f070119	drawable	ic_photo_error_filled	res/od.xml
+0x7f07011a	drawable	ic_photo_error_filled_2	res/3u.xml
+0x7f07011c	drawable	ic_photo_filled_16	res/RE.png,res/ni.png,res/GD.png,res/-x.png,res/3D.png,res/1B.png,res/EI.xml
+0x7f07011d	drawable	ic_photo_filled_20	res/1d.png,res/o4.png,res/_Z.png,res/pU.png,res/FX.png,res/1z.png,res/1t.xml
+0x7f07011e	drawable	ic_photo_outline_16	res/fk.png,res/FM.png,res/Iq.png,res/HF.png,res/Kc.png,res/8_.png,res/zA.xml
+0x7f07011f	drawable	ic_photo_outline_20	res/w2.png,res/88.png,res/pW.png,res/oV.png,res/2z.png,res/-E.png,res/7s.xml
+0x7f070123	drawable	ic_pin_outline_20	res/B1.xml
+0x7f070124	drawable	ic_play_media_outline_20	res/Cp.xml
+0x7f070125	drawable	ic_play_media_outline_24	res/vU.xml
+0x7f070126	drawable	ic_playing_fill_24	res/ZL.xml
+0x7f070127	drawable	ic_plus_outline_20	res/ea.xml
+0x7f070128	drawable	ic_profile	res/BI.xml
+0x7f07012a	drawable	ic_redirect_regular	res/Ug.xml
+0x7f07012b	drawable	ic_redo_outline_24	res/7_.xml
+0x7f07012c	drawable	ic_refresh_circle_fill	res/zw.png,res/8e.png,res/56.png,res/qF.png,res/1v.png,res/7O.png,res/AS.xml
+0x7f07012d	drawable	ic_refresh_outline	res/rd.xml
+0x7f07012e	drawable	ic_refresh_outline_14	res/DT.xml
+0x7f07012f	drawable	ic_refresh_outline_20	res/cG.xml
+0x7f070130	drawable	ic_regegerate_outline_24	res/Dn.xml
+0x7f070132	drawable	ic_report_outline	res/RB.xml
+0x7f070134	drawable	ic_rotate_left_outline_thin_20	res/lO.xml
+0x7f070136	drawable	ic_scan_picture_filled_20	res/Ww.xml
+0x7f070137	drawable	ic_scan_text_filled_20	res/e9.xml
+0x7f070138	drawable	ic_search_outline_16	res/Rn.xml
+0x7f07013a	drawable	ic_search_warning_outline_16	res/D5.xml
+0x7f07013b	drawable	ic_search_web	res/f-.png,res/Y6.png,res/32.png,res/sH.png,res/a0.png,res/VE.png,res/2Q.xml
+0x7f07013c	drawable	ic_select_all_outline_20	res/Dk.xml
+0x7f07013d	drawable	ic_select_outline	res/k-.xml
+0x7f07013f	drawable	ic_send_fill_20	res/Si.xml
+0x7f070141	drawable	ic_share_outline_20	res/Sx.xml
+0x7f070142	drawable	ic_shortcut_camera	res/As.xml
+0x7f070143	drawable	ic_shortcut_new_chat	res/Et.xml
+0x7f070144	drawable	ic_shortcut_send_photo	res/JC.xml
+0x7f070145	drawable	ic_simplify_outline_20	res/Qe.xml
+0x7f070146	drawable	ic_site_icon_placeholder	res/ct.xml
+0x7f070147	drawable	ic_size_regular	res/D7.xml
+0x7f070148	drawable	ic_stop_fill_20	res/rV.xml
+0x7f070149	drawable	ic_stop_speech_outline_20	res/UQ.xml
+0x7f07014a	drawable	ic_sun_regular	res/gY.png,res/4e.png,res/RW.png,res/hT.png,res/63.png,res/DR.png,res/s-.xml
+0x7f07014b	drawable	ic_text_mode_outline_20	res/VJ.png,res/0o.png,res/4V.png,res/3e.png,res/PZ.png,res/fX.png,res/4y.xml
+0x7f07014c	drawable	ic_think_outline_16	res/ua.png,res/xk.png,res/Ni.png,res/bl.png,res/2n.png,res/HW.png,res/ZR.xml
+0x7f07014d	drawable	ic_tile_camera_ask	res/W9.xml
+0x7f07014e	drawable	ic_tile_new_chat	res/gB.xml
+0x7f07014f	drawable	ic_tile_picture_ask	res/6I.png,res/aK.png,res/CP.png,res/lU.png,res/aB.png,res/X1.png,res/G7.xml
+0x7f070151	drawable	ic_trash_outline_20	res/S0.xml
+0x7f070152	drawable	ic_type_pdf	res/nJ.png,res/7m.png,res/BL.png,res/mr.png,res/XI.png,res/vP.png,res/q6.xml
+0x7f070153	drawable	ic_type_pic	res/_S.png,res/_d.png,res/uY.png,res/6L.png,res/O0.png,res/SJ.png,res/r2.xml
+0x7f070154	drawable	ic_type_text	res/M0.png,res/cx.png,res/cg.png,res/ZP.png,res/G3.png,res/l2.png,res/js.xml
+0x7f070155	drawable	ic_type_xls	res/kV.png,res/uX.png,res/H1.png,res/wT.png,res/bu.png,res/BZ.png,res/eY.xml
+0x7f070156	drawable	ic_undo_outline_24	res/-d.xml
+0x7f070157	drawable	ic_unpin_outline_20	res/nd.xml
+0x7f070158	drawable	ic_user_regular	res/Ia.xml
+0x7f070159	drawable	ic_voice_outline_26	res/fc.xml
+0x7f07015a	drawable	ic_wand	res/iE.png,res/6G.png,res/DA.png,res/de.png,res/w-.png,res/dN.png,res/3M.xml
+0x7f07015b	drawable	ic_warning_outline_16	res/yL.xml
+0x7f07015c	drawable	ic_warning_outline_20	res/rF.png,res/Mq.png,res/B1.png,res/m7.png,res/D5.png,res/oB.png,res/PM.xml
+0x7f07015d	drawable	ic_wechat_logo	res/Pq.xml
+0x7f07015e	drawable	ic_wechat_outline_20	res/Rb.png,res/hU.png,res/xI.png,res/SR.png,res/9j.png,res/N8.png,res/WP.xml
+0x7f070160	drawable	ic_wechat_share	res/Uu.png,res/HD.png,res/6F.png,res/hW.png,res/LL.png,res/bK.png,res/TQ.xml
+0x7f07016f	drawable	scrollbar_drawable	res/S3.xml
+0x7f070171	drawable	tooltip_frame_dark	res/_G.xml
+0x7f070172	drawable	tooltip_frame_light	res/NM.xml
+0x7f080000	id	ALT	
+0x7f080001	id	CTRL	
+0x7f080002	id	FUNCTION	
+0x7f080003	id	META	
+0x7f080004	id	SHIFT	
+0x7f080005	id	SYM	
+0x7f080006	id	accessibility_action_clickable_span	
+0x7f080007	id	accessibility_custom_action_0	
+0x7f080008	id	accessibility_custom_action_1	
+0x7f080009	id	accessibility_custom_action_10	
+0x7f08000a	id	accessibility_custom_action_11	
+0x7f08000b	id	accessibility_custom_action_12	
+0x7f08000c	id	accessibility_custom_action_13	
+0x7f08000d	id	accessibility_custom_action_14	
+0x7f08000e	id	accessibility_custom_action_15	
+0x7f08000f	id	accessibility_custom_action_16	
+0x7f080010	id	accessibility_custom_action_17	
+0x7f080011	id	accessibility_custom_action_18	
+0x7f080012	id	accessibility_custom_action_19	
+0x7f080013	id	accessibility_custom_action_2	
+0x7f080014	id	accessibility_custom_action_20	
+0x7f080015	id	accessibility_custom_action_21	
+0x7f080016	id	accessibility_custom_action_22	
+0x7f080017	id	accessibility_custom_action_23	
+0x7f080018	id	accessibility_custom_action_24	
+0x7f080019	id	accessibility_custom_action_25	
+0x7f08001a	id	accessibility_custom_action_26	
+0x7f08001b	id	accessibility_custom_action_27	
+0x7f08001c	id	accessibility_custom_action_28	
+0x7f08001d	id	accessibility_custom_action_29	
+0x7f08001e	id	accessibility_custom_action_3	
+0x7f08001f	id	accessibility_custom_action_30	
+0x7f080020	id	accessibility_custom_action_31	
+0x7f080021	id	accessibility_custom_action_4	
+0x7f080022	id	accessibility_custom_action_5	
+0x7f080023	id	accessibility_custom_action_6	
+0x7f080024	id	accessibility_custom_action_7	
+0x7f080025	id	accessibility_custom_action_8	
+0x7f080026	id	accessibility_custom_action_9	
+0x7f080027	id	action_bar	
+0x7f080028	id	action_bar_activity_content	
+0x7f080029	id	action_bar_container	
+0x7f08002a	id	action_bar_root	
+0x7f08002b	id	action_bar_spinner	
+0x7f08002c	id	action_bar_subtitle	
+0x7f08002d	id	action_bar_title	
+0x7f08002e	id	action_container	
+0x7f08002f	id	action_context_bar	
+0x7f080030	id	action_divider	
+0x7f080031	id	action_image	
+0x7f080032	id	action_menu_divider	
+0x7f080033	id	action_menu_presenter	
+0x7f080034	id	action_mode_bar	
+0x7f080035	id	action_mode_bar_stub	
+0x7f080036	id	action_mode_close_button	
+0x7f080037	id	action_text	
+0x7f080038	id	actions	
+0x7f080039	id	activity_chooser_view_content	
+0x7f08003a	id	add	
+0x7f08003b	id	adjacent	
+0x7f08003c	id	adjust_height	
+0x7f08003d	id	adjust_width	
+0x7f08003e	id	alertTitle	
+0x7f08003f	id	always	
+0x7f080040	id	alwaysAllow	
+0x7f080041	id	alwaysDisallow	
+0x7f080042	id	androidx_compose_ui_view_compose_view_context	
+0x7f080043	id	androidx_compose_ui_view_composition_context	
+0x7f080044	id	androidx_window_activity_scope	
+0x7f080045	id	applog_tag_ignore	
+0x7f080046	id	applog_tag_view_exposure_observe_flag	
+0x7f080047	id	applog_tag_view_id	
+0x7f080048	id	applog_tag_view_name	
+0x7f080049	id	async	
+0x7f08004a	id	auto	
+0x7f08004b	id	auto_clear_focus_behavior_tag	
+0x7f08004c	id	autofill_inline_suggestion_end_icon	
+0x7f08004d	id	autofill_inline_suggestion_start_icon	
+0x7f08004e	id	autofill_inline_suggestion_subtitle	
+0x7f08004f	id	autofill_inline_suggestion_title	
+0x7f080050	id	automatic	
+0x7f080051	id	beginning	
+0x7f080052	id	blocking	
+0x7f080053	id	bottom	
+0x7f080054	id	bottomToTop	
+0x7f080055	id	browser_actions_header_text	
+0x7f080056	id	browser_actions_menu_item_icon	
+0x7f080057	id	browser_actions_menu_item_text	
+0x7f080058	id	browser_actions_menu_items	
+0x7f080059	id	browser_actions_menu_view	
+0x7f08005a	id	buttonPanel	
+0x7f08005b	id	call_notification_hangup	
+0x7f08005c	id	call_notification_microphone	
+0x7f08005d	id	call_notification_microphone_icon	
+0x7f08005e	id	call_notification_status	
+0x7f08005f	id	call_notification_subtitle	
+0x7f080060	id	center	
+0x7f080061	id	center_vertical	
+0x7f080062	id	checkbox	
+0x7f080063	id	checked	
+0x7f080064	id	chronometer	
+0x7f080065	id	coil3_request_manager	
+0x7f080066	id	collapseActionView	
+0x7f080067	id	compatible	
+0x7f080068	id	compose_prefetch_scheduler	
+0x7f080069	id	compose_view_saveable_id_tag	
+0x7f08006a	id	consume_window_insets_tag	
+0x7f08006b	id	content	
+0x7f08006c	id	contentPanel	
+0x7f08006d	id	custom	
+0x7f08006e	id	customPanel	
+0x7f08006f	id	dark	
+0x7f080070	id	decor_content_parent	
+0x7f080071	id	default_activity_button	
+0x7f080072	id	dialog_button	
+0x7f080073	id	disableHome	
+0x7f080074	id	disabled	
+0x7f080075	id	draggable	
+0x7f080076	id	edit_query	
+0x7f080077	id	edit_text_id	
+0x7f080078	id	enabled	
+0x7f080079	id	end	
+0x7f08007a	id	expand_activities_button	
+0x7f08007b	id	expanded_menu	
+0x7f08007c	id	fillCenter	
+0x7f08007d	id	fillEnd	
+0x7f08007e	id	fillStart	
+0x7f08007f	id	fitCenter	
+0x7f080080	id	fitEnd	
+0x7f080081	id	fitStart	
+0x7f080082	id	fixed	
+0x7f080083	id	forever	
+0x7f080084	id	fragment_container_view_tag	
+0x7f080085	id	group_divider	
+0x7f080086	id	hardware	
+0x7f080087	id	hide_graphics_layer_in_inspector_tag	
+0x7f080088	id	hide_ime_id	
+0x7f080089	id	hide_in_inspector_tag	
+0x7f08008a	id	home	
+0x7f08008b	id	homeAsUp	
+0x7f08008c	id	icon	
+0x7f08008d	id	icon_group	
+0x7f08008e	id	icon_only	
+0x7f08008f	id	ifRoom	
+0x7f080090	id	image	
+0x7f080091	id	info	
+0x7f080092	id	inspection_slot_table_set	
+0x7f080093	id	is_pooling_container_tag	
+0x7f080094	id	italic	
+0x7f080095	id	jumpCut	
+0x7f080096	id	light	
+0x7f080097	id	line1	
+0x7f080098	id	line3	
+0x7f080099	id	listMode	
+0x7f08009a	id	list_item	
+0x7f08009b	id	loadingContainer	
+0x7f08009c	id	locale	
+0x7f08009d	id	lottie_layer_name	
+0x7f08009e	id	ltr	
+0x7f08009f	id	message	
+0x7f0800a0	id	middle	
+0x7f0800a1	id	multiply	
+0x7f0800a2	id	nav_controller_view_tag	
+0x7f0800a3	id	never	
+0x7f0800a4	id	none	
+0x7f0800a5	id	normal	
+0x7f0800a6	id	notification_background	
+0x7f0800a7	id	notification_main_column	
+0x7f0800a8	id	notification_main_column_container	
+0x7f0800a9	id	off	
+0x7f0800aa	id	on	
+0x7f0800ab	id	parentPanel	
+0x7f0800ac	id	performance	
+0x7f0800ad	id	pooling_container_listener_holder_tag	
+0x7f0800ae	id	progress_circular	
+0x7f0800af	id	progress_horizontal	
+0x7f0800b0	id	radio	
+0x7f0800b1	id	report_drawn	
+0x7f0800b2	id	restart	
+0x7f0800b3	id	reverse	
+0x7f0800b4	id	right_icon	
+0x7f0800b5	id	right_side	
+0x7f0800b6	id	rtl	
+0x7f0800b7	id	screen	
+0x7f0800b8	id	scrollIndicatorDown	
+0x7f0800b9	id	scrollIndicatorUp	
+0x7f0800ba	id	scrollView	
+0x7f0800bb	id	search_badge	
+0x7f0800bc	id	search_bar	
+0x7f0800bd	id	search_button	
+0x7f0800be	id	search_close_btn	
+0x7f0800bf	id	search_edit_frame	
+0x7f0800c0	id	search_go_btn	
+0x7f0800c1	id	search_mag_icon	
+0x7f0800c2	id	search_plate	
+0x7f0800c3	id	search_src_text	
+0x7f0800c4	id	search_voice_btn	
+0x7f0800c5	id	select_dialog_listview	
+0x7f0800c6	id	shortcut	
+0x7f0800c7	id	showCustom	
+0x7f0800c8	id	showHome	
+0x7f0800c9	id	showTitle	
+0x7f0800ca	id	software	
+0x7f0800cb	id	spacer	
+0x7f0800cc	id	special_effects_controller_view_tag	
+0x7f0800cd	id	split_action_bar	
+0x7f0800ce	id	src_atop	
+0x7f0800cf	id	src_in	
+0x7f0800d0	id	src_over	
+0x7f0800d1	id	standard	
+0x7f0800d2	id	start	
+0x7f0800d3	id	submenuarrow	
+0x7f0800d4	id	submit_area	
+0x7f0800d5	id	systemDefault	
+0x7f0800d6	id	tabMode	
+0x7f0800d7	id	tag_accessibility_actions	
+0x7f0800d8	id	tag_accessibility_clickable_spans	
+0x7f0800d9	id	tag_accessibility_heading	
+0x7f0800da	id	tag_accessibility_pane_title	
+0x7f0800db	id	tag_compat_insets_dispatch	
+0x7f0800dc	id	tag_on_apply_window_listener	
+0x7f0800dd	id	tag_on_receive_content_listener	
+0x7f0800de	id	tag_on_receive_content_mime_types	
+0x7f0800df	id	tag_screen_reader_focusable	
+0x7f0800e0	id	tag_state_description	
+0x7f0800e1	id	tag_system_bar_state_monitor	
+0x7f0800e2	id	tag_transition_group	
+0x7f0800e3	id	tag_unhandled_key_event_manager	
+0x7f0800e4	id	tag_unhandled_key_listeners	
+0x7f0800e5	id	tag_window_insets_animation_callback	
+0x7f0800e6	id	text	
+0x7f0800e7	id	text2	
+0x7f0800e8	id	textSpacerNoButtons	
+0x7f0800e9	id	textSpacerNoTitle	
+0x7f0800ea	id	text_tip	
+0x7f0800eb	id	time	
+0x7f0800ec	id	title	
+0x7f0800ed	id	titleDividerNoCustom	
+0x7f0800ee	id	title_template	
+0x7f0800ef	id	top	
+0x7f0800f0	id	topPanel	
+0x7f0800f1	id	topToBottom	
+0x7f0800f2	id	unchecked	
+0x7f0800f3	id	uniform	
+0x7f0800f4	id	up	
+0x7f0800f5	id	useLogo	
+0x7f0800f6	id	view_tree_disjoint_parent	
+0x7f0800f7	id	view_tree_lifecycle_owner	
+0x7f0800f8	id	view_tree_navigation_event_dispatcher_owner	
+0x7f0800f9	id	view_tree_on_back_pressed_dispatcher_owner	
+0x7f0800fa	id	view_tree_saved_state_registry_owner	
+0x7f0800fb	id	view_tree_view_model_store_owner	
+0x7f0800fc	id	visible_removing_fragment_view_tag	
+0x7f0800fd	id	webView	
+0x7f0800fe	id	wide	
+0x7f0800ff	id	withText	
+0x7f080100	id	wrap_content	
+0x7f080101	id	wrapped_composition_tag	
+0x7f090000	integer	abc_config_activityDefaultDur	
+0x7f090001	integer	abc_config_activityShortDur	
+0x7f090003	integer	config_tooltipAnimTime	
+0x7f090004	integer	google_play_services_version	
+0x7f0a0000	interpolator	btn_checkbox_checked_mtrl_animation_interpolator_0	res/c5.xml
+0x7f0a0001	interpolator	btn_checkbox_checked_mtrl_animation_interpolator_1	res/NF.xml
+0x7f0a0002	interpolator	btn_checkbox_unchecked_mtrl_animation_interpolator_0	res/_o.xml
+0x7f0a0003	interpolator	btn_checkbox_unchecked_mtrl_animation_interpolator_1	res/VM.xml
+0x7f0a0004	interpolator	btn_radio_to_off_mtrl_animation_interpolator_0	res/lN.xml
+0x7f0a0005	interpolator	btn_radio_to_on_mtrl_animation_interpolator_0	res/DZ.xml
+0x7f0a0006	interpolator	fast_out_slow_in	res/sn.xml
+0x7f0b0000	layout	abc_action_bar_title_item	res/A1.xml
+0x7f0b0002	layout	abc_action_menu_item_layout	res/Tn.xml
+0x7f0b0003	layout	abc_action_menu_layout	res/yV.xml
+0x7f0b0004	layout	abc_action_mode_bar	res/zq.xml
+0x7f0b0005	layout	abc_action_mode_close_item_material	res/bt.xml
+0x7f0b0008	layout	abc_alert_dialog_button_bar_material	res/hP1.xml,res/GR.xml
+0x7f0b0009	layout	abc_alert_dialog_material	res/Be.xml
+0x7f0b000a	layout	abc_alert_dialog_title_material	res/9V.xml,res/Fu.xml
+0x7f0b000b	layout	abc_cascading_menu_item_layout	res/eA.xml
+0x7f0b000c	layout	abc_dialog_title_material	res/7G.xml
+0x7f0b000d	layout	abc_expanded_menu_layout	res/9z.xml
+0x7f0b000e	layout	abc_list_menu_item_checkbox	res/vJ.xml
+0x7f0b000f	layout	abc_list_menu_item_icon	res/46.xml
+0x7f0b0010	layout	abc_list_menu_item_layout	res/vG.xml
+0x7f0b0011	layout	abc_list_menu_item_radio	res/aG.xml
+0x7f0b0012	layout	abc_popup_menu_header_item_layout	res/uJ.xml
+0x7f0b0013	layout	abc_popup_menu_item_layout	res/2j.xml
+0x7f0b0014	layout	abc_screen_content_include	res/rY.xml
+0x7f0b0015	layout	abc_screen_simple	res/RH.xml
+0x7f0b0016	layout	abc_screen_simple_overlay_action_mode	res/Mp.xml
+0x7f0b0017	layout	abc_screen_toolbar	res/nP.xml,res/k8.xml
+0x7f0b0018	layout	abc_search_dropdown_item_icons_2line	res/2f.xml
+0x7f0b0019	layout	abc_search_view	res/dO.xml
+0x7f0b001a	layout	abc_select_dialog_material	res/vq.xml
+0x7f0b001b	layout	abc_tooltip	res/3A.xml
+0x7f0b0027	layout	notification_call	res/Ti.xml
+0x7f0b002c	layout	select_dialog_item_material	res/VT.xml
+0x7f0b002d	layout	select_dialog_multichoice_material	res/V1.xml
+0x7f0b002e	layout	select_dialog_singlechoice_material	res/hP.xml
+0x7f0b002f	layout	support_simple_spinner_dropdown_item	res/Hd.xml
+0x7f0c0000	mipmap	ic_launcher	res/d2.webp,res/MO.webp,res/qs.webp,res/Sn.webp,res/sK.webp,res/BW.xml
+0x7f0c0001	mipmap	ic_launcher_round	res/yw.webp,res/fq.webp,res/u5.webp,res/j_.webp,res/-6.webp,res/0K.xml
+0x7f0e0000	raw	auto_play_off	res/1I.json
+0x7f0e0001	raw	auto_play_on	res/oM.json
+0x7f0e0002	raw	call_connected	res/mT.m4a
+0x7f0e0003	raw	call_disconnected	res/sN.m4a
+0x7f0e0004	raw	expert	res/s7.json
+0x7f0e0005	raw	flash	res/En.json
+0x7f0e0006	raw	globe	res/U1.json
+0x7f0e0007	raw	photo	res/HR.json
+0x7f0e0008	raw	playing	res/u1.json
+0x7f0e0009	raw	think	res/b0.json
+0x7f0e000a	raw	voice_mask	res/02.agsl
+0x7f0f0001	string	abc_action_bar_up_description	
+0x7f0f0003	string	abc_action_mode_done	
+0x7f0f0006	string	abc_capital_off	
+0x7f0f0007	string	abc_capital_on	
+0x7f0f0008	string	abc_menu_alt_shortcut_label	
+0x7f0f0009	string	abc_menu_ctrl_shortcut_label	
+0x7f0f000a	string	abc_menu_delete_shortcut_label	
+0x7f0f000b	string	abc_menu_enter_shortcut_label	
+0x7f0f000c	string	abc_menu_function_shortcut_label	
+0x7f0f000d	string	abc_menu_meta_shortcut_label	
+0x7f0f000e	string	abc_menu_shift_shortcut_label	
+0x7f0f000f	string	abc_menu_space_shortcut_label	
+0x7f0f0010	string	abc_menu_sym_shortcut_label	
+0x7f0f0011	string	abc_prepend_shortcut_label	
+0x7f0f0012	string	abc_search_hint	
+0x7f0f0013	string	abc_searchview_description_clear	
+0x7f0f0015	string	abc_searchview_description_search	
+0x7f0f0016	string	abc_searchview_description_submit	
+0x7f0f0017	string	abc_searchview_description_voice	
+0x7f0f001a	string	abc_toolbar_collapse_description	
+0x7f0f001b	string	abort	
+0x7f0f001c	string	account_audio_input_language	
+0x7f0f001d	string	account_audio_input_language_footer	
+0x7f0f001e	string	account_audio_input_language_header	
+0x7f0f001f	string	account_audio_input_language_use_app_lang	
+0x7f0f0020	string	account_delete_button	
+0x7f0f0021	string	account_delete_button_countdown	
+0x7f0f0022	string	account_delete_confirm	
+0x7f0f0023	string	account_delete_modal	
+0x7f0f0025	string	account_management	
+0x7f0f0026	string	account_muted_description	
+0x7f0f0028	string	adjust_age_picker_title_for_settings	
+0x7f0f0029	string	age_picker_confirm_button	
+0x7f0f002a	string	age_picker_description	
+0x7f0f002b	string	age_picker_title_for_chat	
+0x7f0f002c	string	age_verified_toast	
+0x7f0f002d	string	agent_interrupted_text	
+0x7f0f002e	string	agree_and_continue	
+0x7f0f002f	string	all_sessions_delete_confirm	
+0x7f0f0030	string	all_sessions_delete_description	
+0x7f0f0031	string	all_sessions_delete_modal	
+0x7f0f0032	string	allow	
+0x7f0f0035	string	androidx_compose_foundation_autofill	
+0x7f0f0037	string	androidx_startup	
+0x7f0f0038	string	app_color_scheme	
+0x7f0f0039	string	app_color_scheme_dark	
+0x7f0f003a	string	app_color_scheme_light	
+0x7f0f003b	string	app_color_scheme_system	
+0x7f0f003c	string	app_language	
+0x7f0f003d	string	app_language_system	
+0x7f0f003e	string	app_name	
+0x7f0f003f	string	app_section_title	
+0x7f0f0044	string	asr_connection_failed_toast	
+0x7f0f0045	string	asr_failed_toast	
+0x7f0f0046	string	asr_interrupted_toast	
+0x7f0f0049	string	asset_statements	
+0x7f0f004a	string	attach_files	
+0x7f0f004b	string	auth_email_not_exist_toast	
+0x7f0f004c	string	auth_pass_code_error_toast	
+0x7f0f004d	string	auth_pass_code_expired_toast	
+0x7f0f004e	string	auth_pass_code_frequent_toast	
+0x7f0f004f	string	auth_warn_account_empty	
+0x7f0f0051	string	auth_warn_email_empty	
+0x7f0f0052	string	auth_warn_email_invalid	
+0x7f0f0053	string	auth_warn_mobile_empty	
+0x7f0f0054	string	auth_warn_mobile_invalid	
+0x7f0f0055	string	auth_warn_pass_code_empty	
+0x7f0f0056	string	auth_warn_pass_code_invalid	
+0x7f0f0057	string	auth_warn_password_empty	
+0x7f0f0058	string	auth_warn_password_invalid	
+0x7f0f0059	string	auto_read_aloud	
+0x7f0f005a	string	back	
+0x7f0f005c	string	bind_phone_number_button	
+0x7f0f005d	string	bind_phone_number_hint	
+0x7f0f005e	string	bind_phone_number_title	
+0x7f0f005f	string	bind_wechat	
+0x7f0f0060	string	bind_wechat_failed	
+0x7f0f0061	string	bind_wechat_failed_already_bound	
+0x7f0f0062	string	bind_wechat_failed_bound_by_others	
+0x7f0f0063	string	bind_wechat_fallback_toast	
+0x7f0f0064	string	bind_wechat_succeed	
+0x7f0f0066	string	birthday_choose_reject	
+0x7f0f0067	string	birthday_choose_reject_confirm	
+0x7f0f006b	string	bluetooth_permission_description	
+0x7f0f006c	string	bluetooth_permission_title	
+0x7f0f006d	string	branch_switcher_description	
+0x7f0f006e	string	call_active_on_other_device_toast	
+0x7f0f006f	string	call_already_in_progress_toast	
+0x7f0f0070	string	call_answered_on_another_device	
+0x7f0f0071	string	call_connecting	
+0x7f0f0072	string	call_deep_seek	
+0x7f0f0073	string	call_ended_title	
+0x7f0f0074	string	call_experience_bad	
+0x7f0f0075	string	call_experience_good	
+0x7f0f0076	string	call_feedback_could_not_hear_me	
+0x7f0f0077	string	call_feedback_ended_unexpectedly	
+0x7f0f0078	string	call_feedback_interrupted_too_often	
+0x7f0f0079	string	call_feedback_misinformation	
+0x7f0f007a	string	call_feedback_misunderstood_me	
+0x7f0f007b	string	call_feedback_other	
+0x7f0f007c	string	call_in_progress	
+0x7f0f007d	string	call_interrupt_hint	
+0x7f0f007e	string	call_interrupted_by_another_app_toast	
+0x7f0f007f	string	call_listening_hint	
+0x7f0f0080	string	call_network_error_toast	
+0x7f0f0081	string	call_no_audio_description	
+0x7f0f0082	string	call_no_audio_title	
+0x7f0f008a	string	call_rating_description	
+0x7f0f008b	string	call_rating_title	
+0x7f0f008c	string	call_service_error_description	
+0x7f0f008d	string	call_service_error_title	
+0x7f0f008e	string	call_service_unavailable_toast	
+0x7f0f008f	string	call_settings	
+0x7f0f0090	string	call_thinking	
+0x7f0f0091	string	camera_auto_flashlight	
+0x7f0f0092	string	camera_flashlight_disabled	
+0x7f0f0093	string	camera_flashlight_enabled	
+0x7f0f0094	string	camera_flashlight_unavailable	
+0x7f0f0095	string	camera_flip	
+0x7f0f0096	string	camera_permission_app_dialog_title	
+0x7f0f0097	string	camera_permission_description	
+0x7f0f0098	string	camera_permission_title	
+0x7f0f0099	string	camera_shutter	
+0x7f0f009b	string	cancel	
+0x7f0f009c	string	cannot_be_continued_toast	
+0x7f0f009d	string	chat_input_placeholder_chat	
+0x7f0f009e	string	chat_input_placeholder_voice	
+0x7f0f009f	string	chat_welcome_info1_content	
+0x7f0f00a0	string	chat_welcome_info1_title	
+0x7f0f00a1	string	chat_welcome_info2_content	
+0x7f0f00a2	string	chat_welcome_info2_title	
+0x7f0f00a3	string	chat_welcome_title	
+0x7f0f00a4	string	chat_with_deep_seek	
+0x7f0f00a5	string	check_code_fallback_toast	
+0x7f0f00a6	string	checkbox_text_with_one_click_login	
+0x7f0f00a7	string	checkbox_text_without_one_click_login	
+0x7f0f00a9	string	citation_index	
+0x7f0f00aa	string	close	
+0x7f0f00ad	string	close_sidebar	
+0x7f0f00b0	string	collapse	
+0x7f0f00b2	string	common_google_play_services_enable_button	
+0x7f0f00b3	string	common_google_play_services_enable_text	
+0x7f0f00b4	string	common_google_play_services_enable_title	
+0x7f0f00b5	string	common_google_play_services_install_button	
+0x7f0f00b6	string	common_google_play_services_install_text	
+0x7f0f00b7	string	common_google_play_services_install_title	
+0x7f0f00b8	string	common_google_play_services_notification_channel_name	
+0x7f0f00b9	string	common_google_play_services_notification_ticker	
+0x7f0f00ba	string	common_google_play_services_unknown_issue	
+0x7f0f00bb	string	common_google_play_services_unsupported_text	
+0x7f0f00bc	string	common_google_play_services_update_button	
+0x7f0f00bd	string	common_google_play_services_update_text	
+0x7f0f00be	string	common_google_play_services_update_title	
+0x7f0f00bf	string	common_google_play_services_updating_text	
+0x7f0f00c0	string	common_google_play_services_wear_update_text	
+0x7f0f00c1	string	common_network_error_toast	
+0x7f0f00c2	string	common_open_on_phone	
+0x7f0f00c5	string	completion_invalid_params_toast	
+0x7f0f00c6	string	completion_last_message_is_w_i_p	
+0x7f0f00c7	string	completion_max_message_count_toast	
+0x7f0f00c8	string	completion_prompt_empty_toast	
+0x7f0f00c9	string	completion_ref_file_audit_unsatisfied	
+0x7f0f00ca	string	completion_regenerate_on_bad_message_toast	
+0x7f0f00cb	string	completion_server_error_toast	
+0x7f0f00cc	string	confirm	
+0x7f0f00cd	string	confirm_end_call	
+0x7f0f00ce	string	confirm_new_password_placeholder	
+0x7f0f00d2	string	control_title_ask	
+0x7f0f00d3	string	control_title_new_chat	
+0x7f0f00d4	string	control_title_open_camera	
+0x7f0f00d5	string	control_title_send_photo	
+0x7f0f00d6	string	conversation_length_limit_description	
+0x7f0f00d7	string	conversation_length_limit_title	
+0x7f0f00d8	string	copy	
+0x7f0f00d9	string	copy_download_link	
+0x7f0f00da	string	copy_ok	
+0x7f0f00dc	string	create_code_fallback_toast	
+0x7f0f00dd	string	create_pass_code_cloud_error_toast	
+0x7f0f00de	string	create_pass_code_email_domain_not_supported_toast	
+0x7f0f00df	string	create_pass_code_email_invalid_toast	
+0x7f0f00e0	string	create_pass_code_mobile_empty_toast	
+0x7f0f00e1	string	create_pass_code_risk_device_toast	
+0x7f0f00e2	string	crop_photo	
+0x7f0f00e3	string	crop_photo_entirely_failed	
+0x7f0f00e4	string	crop_photo_failed	
+0x7f0f00e5	string	crop_photo_guide	
+0x7f0f00e6	string	crop_photo_reset	
+0x7f0f00e7	string	daily_call_limit_description	
+0x7f0f00ea	string	daily_call_limit_title	
+0x7f0f00eb	string	data_controls	
+0x7f0f00ed	string	default_font_size	
+0x7f0f00ee	string	default_model_description	
+0x7f0f00ef	string	default_model_name	
+0x7f0f00f0	string	default_popup_window_title	
+0x7f0f00f1	string	default_upload_panel_o_c_r_tip_with_vision	
+0x7f0f00f2	string	delete	
+0x7f0f00f3	string	delete_account_failed_toast	
+0x7f0f00f4	string	delete_session_action	
+0x7f0f00f5	string	disable_minor_mode_toast	
+0x7f0f00f6	string	disabled_phone_rebind_subtitle	
+0x7f0f00f7	string	dismiss_call_rating_prompt	
+0x7f0f00fb	string	edit_quota_exceed_toast	
+0x7f0f00fc	string	email_phone_placeholder	
+0x7f0f00fd	string	email_placeholder	
+0x7f0f00fe	string	enable_minor_mode_toast	
+0x7f0f00ff	string	end_call	
+0x7f0f0102	string	exceed_age_change_limit_toast	
+0x7f0f0103	string	excerpted_on	
+0x7f0f0104	string	exection_environment_execption_toast	
+0x7f0f0105	string	existing_biz_code_default_toast	
+0x7f0f0106	string	expand	
+0x7f0f0107	string	expert_model_description	
+0x7f0f0108	string	expert_model_name	
+0x7f0f0109	string	expert_upload_panel_o_c_r_tip_with_vision	
+0x7f0f010a	string	export_all_button	
+0x7f0f010b	string	export_all_desc	
+0x7f0f010d	string	export_all_expiry_notice_desc	
+0x7f0f010e	string	export_all_failed	
+0x7f0f010f	string	export_all_label	
+0x7f0f0110	string	export_all_rate_limit	
+0x7f0f0111	string	export_all_reexport_btn	
+0x7f0f0116	string	file_cannot_with_search_toast	
+0x7f0f0117	string	file_chooser_open_error_toast	
+0x7f0f0118	string	file_content_cannot_be_empty	
+0x7f0f0119	string	file_content_too_long	
+0x7f0f011a	string	file_count_limit_exceeded_toast	
+0x7f0f011d	string	file_ext_not_supported_toast	
+0x7f0f0122	string	file_name_cannot_be_empty	
+0x7f0f0123	string	file_over_size_toast	
+0x7f0f0127	string	file_server_busy_toast	
+0x7f0f0128	string	file_token_exceeds	
+0x7f0f0129	string	file_tokens_over_size	
+0x7f0f012a	string	file_upload_common_error	
+0x7f0f012b	string	file_uploading	
+0x7f0f012c	string	filename_too_long	
+0x7f0f012d	string	fold	
+0x7f0f012e	string	follow_system	
+0x7f0f012f	string	font_size	
+0x7f0f0130	string	force_update_dialog_confirm	
+0x7f0f0131	string	force_update_dialog_content	
+0x7f0f0132	string	force_update_dialog_title	
+0x7f0f0134	string	forgot_password_button	
+0x7f0f0135	string	forgot_password_entry	
+0x7f0f0138	string	forgot_password_failed_email_not_exist_toast2	
+0x7f0f0139	string	forgot_password_failed_mobile_not_exist_toast2	
+0x7f0f013b	string	forgot_password_invalid_password_toast	
+0x7f0f013c	string	forgot_password_ok_toast	
+0x7f0f013d	string	forgot_password_title	
+0x7f0f013e	string	front_camera_unavailable_toast	
+0x7f0f013f	string	generating	
+0x7f0f0140	string	get_file_from_we_chat_failed_toast	
+0x7f0f0141	string	go_to_bottom	
+0x7f0f0142	string	google_fallback_toast	
+0x7f0f0143	string	google_login_button	
+0x7f0f0144	string	google_sign_in_device_not_support_toast	
+0x7f0f0145	string	google_sign_in_fail56	
+0x7f0f0146	string	google_sign_in_mainland_toast	
+0x7f0f0148	string	google_sign_in_token_verified_failed_toast	
+0x7f0f0149	string	google_sign_in_unexpected_code_toast	
+0x7f0f014b	string	guardian_phone_description	
+0x7f0f014c	string	guardian_phone_invalid_toast	
+0x7f0f014d	string	guardian_phone_required_toast	
+0x7f0f014e	string	guardian_phone_title	
+0x7f0f014f	string	hang_up_call	
+0x7f0f0151	string	hcaptcha_failed_setup_toast	
+0x7f0f0153	string	hcaptcha_initializing	
+0x7f0f0154	string	hcaptcha_network_error_toast	
+0x7f0f0155	string	hcaptcha_rate_limit_toast	
+0x7f0f0156	string	hcaptcha_refreshing	
+0x7f0f0158	string	hcaptcha_unexpected_toast	
+0x7f0f015a	string	hide_call_captions	
+0x7f0f015b	string	hide_password	
+0x7f0f015c	string	hint_click_context_exceed_dialog_confirm	
+0x7f0f015d	string	hint_click_context_exceed_dialog_description	
+0x7f0f015e	string	hint_click_context_exceed_dialog_title	
+0x7f0f015f	string	hint_fallback	
+0x7f0f0160	string	hint_file_count_limit_exceeded	
+0x7f0f0161	string	hint_invalid_file_ref	
+0x7f0f0162	string	hint_invalid_params	
+0x7f0f0163	string	hint_last_message_is_w_i_p	
+0x7f0f0164	string	hint_max_message_count	
+0x7f0f0165	string	hint_message_search_with_file_error	
+0x7f0f0166	string	hint_network_error	
+0x7f0f0167	string	hint_prompt_empty	
+0x7f0f0168	string	hint_rate_limit_reached	
+0x7f0f0169	string	hint_server_error	
+0x7f0f016a	string	history_load_failed	
+0x7f0f016b	string	history_loading	
+0x7f0f0171	string	image	
+0x7f0f0172	string	image_crop_load_failed	
+0x7f0f0173	string	image_edit_send_button	
+0x7f0f0174	string	image_preview_load_failed	
+0x7f0f0175	string	image_preview_reload	
+0x7f0f0176	string	image_preview_save_error_toast	
+0x7f0f0177	string	image_preview_save_photo	
+0x7f0f0178	string	image_preview_save_successfully	
+0x7f0f0179	string	in_call	
+0x7f0f017a	string	in_progress	
+0x7f0f017b	string	indeterminate	
+0x7f0f017c	string	input_a_i_alert	
+0x7f0f017f	string	intercom_entry	
+0x7f0f0180	string	invalid_file_ref_toast	
+0x7f0f0181	string	invalid_message_id_toast	
+0x7f0f0182	string	invalid_token_toast	
+0x7f0f0183	string	keep_button	
+0x7f0f0185	string	launch_welcome	
+0x7f0f0186	string	loading	
+0x7f0f0188	string	locale	
+0x7f0f0189	string	login_button	
+0x7f0f018a	string	login_device_protected	
+0x7f0f018b	string	login_devices_current_device	
+0x7f0f018c	string	login_devices_description	
+0x7f0f018d	string	login_devices_fallback_name	
+0x7f0f018e	string	login_devices_load_failed	
+0x7f0f018f	string	login_devices_login_time	
+0x7f0f0190	string	login_devices_logout_confirm_title	
+0x7f0f0191	string	login_devices_management	
+0x7f0f0193	string	login_devices_unknown_login_time	
+0x7f0f0194	string	login_fallback_toast	
+0x7f0f0196	string	logout_alert_description	
+0x7f0f0197	string	logout_alert_title	
+0x7f0f0198	string	logout_all_sessions_confirm	
+0x7f0f0199	string	logout_all_sessions_description	
+0x7f0f019a	string	logout_all_sessions_failed_toast	
+0x7f0f019b	string	logout_all_sessions_title	
+0x7f0f01df	string	markdown_code_copy_label	
+0x7f0f01e3	string	markdown_overflow_show_all_button	
+0x7f0f01e4	string	markdown_table_export_failed	
+0x7f0f01e5	string	markdown_table_title	
+0x7f0f01e7	string	merge_tool_find	
+0x7f0f01e8	string	merge_tool_find_no_result	
+0x7f0f01ea	string	merge_tool_open	
+0x7f0f01eb	string	merge_tool_open_fail	
+0x7f0f01ec	string	merge_tool_open_result	
+0x7f0f01ed	string	merge_tool_open_results	
+0x7f0f01ee	string	merge_tool_open_search_list	
+0x7f0f01ef	string	merge_tool_search_result	
+0x7f0f01f0	string	merge_tool_search_results	
+0x7f0f01f1	string	mermaid_button_full_screen	
+0x7f0f01f2	string	mermaid_inline_empty	
+0x7f0f01f3	string	mermaid_inline_fail	
+0x7f0f01f4	string	mermaid_inline_loading	
+0x7f0f01f5	string	mermaid_preview_failed	
+0x7f0f01f6	string	mermaid_save	
+0x7f0f01f7	string	mermaid_save_failed	
+0x7f0f01f8	string	mermaid_save_successfully	
+0x7f0f01f9	string	mermaid_switch_code	
+0x7f0f01fa	string	mermaid_switch_preview	
+0x7f0f01fb	string	message_continue	
+0x7f0f01fc	string	message_copy_label	
+0x7f0f01ff	string	message_editting	
+0x7f0f0200	string	message_feedback	
+0x7f0f0201	string	message_feedback_bad_placeholder	
+0x7f0f0202	string	message_feedback_commit	
+0x7f0f0203	string	message_feedback_successfully_toast	
+0x7f0f0204	string	message_feedback_tag_fake	
+0x7f0f0205	string	message_feedback_tag_harmful	
+0x7f0f0206	string	message_feedback_tag_others	
+0x7f0f0207	string	message_feedback_tag_useless	
+0x7f0f0209	string	message_press_copy	
+0x7f0f020a	string	message_press_dislike	
+0x7f0f020b	string	message_press_edit	
+0x7f0f020c	string	message_press_edit_to_branch	
+0x7f0f020d	string	message_press_like	
+0x7f0f020e	string	message_press_regenerate	
+0x7f0f020f	string	message_press_report	
+0x7f0f0210	string	message_r1_button	
+0x7f0f0212	string	message_reading_image	
+0x7f0f0213	string	message_reading_link	
+0x7f0f0214	string	message_search_button	
+0x7f0f0215	string	message_search_failed	
+0x7f0f0216	string	message_search_page_ttitle	
+0x7f0f0217	string	message_search_result	
+0x7f0f0218	string	message_search_summary	
+0x7f0f0219	string	message_search_with_file_error	
+0x7f0f021a	string	message_searching	
+0x7f0f021b	string	message_searching2nd	
+0x7f0f021c	string	message_searching_stopped	
+0x7f0f021d	string	message_searching_with_query	
+0x7f0f021e	string	message_select_text	
+0x7f0f021f	string	message_think_duration	
+0x7f0f0220	string	message_think_stopped	
+0x7f0f0221	string	message_thinking	
+0x7f0f0222	string	message_tool_find_wip	
+0x7f0f0223	string	message_tool_open_wip	
+0x7f0f0224	string	microphone_muted_toast	
+0x7f0f0225	string	microphone_permission_app_dialog_title	
+0x7f0f0226	string	microphone_permission_description	
+0x7f0f0227	string	microphone_permission_required_toast	
+0x7f0f0228	string	microphone_permission_title	
+0x7f0f022a	string	minor_mode_disabled_status	
+0x7f0f022b	string	minor_mode_enabled_status	
+0x7f0f022c	string	minor_mode_label	
+0x7f0f022d	string	missing_pow_header_toast	
+0x7f0f0230	string	mobile_verification_account_exist_toast	
+0x7f0f0231	string	mobile_verification_invalid_phone_number_toast	
+0x7f0f0232	string	mobile_verification_mobile_banned_toast	
+0x7f0f0233	string	mobile_verification_registration_expired_toast	
+0x7f0f0237	string	model_switched_reselect_file_from_we_chat_toast	
+0x7f0f0238	string	model_unsupport_files_toast	
+0x7f0f0239	string	model_welcome_message	
+0x7f0f023a	string	mute_bottom_bar_action	
+0x7f0f023b	string	mute_bottom_bar_text	
+0x7f0f023c	string	mute_bottom_bar_text_date_formatter	
+0x7f0f023d	string	mute_bottom_bar_text_no_until	
+0x7f0f023e	string	muted_user_cannot_unregister	
+0x7f0f0240	string	network_unavailable_toast	
+0x7f0f0242	string	new_password_placeholder	
+0x7f0f0244	string	next_message	
+0x7f0f0245	string	no_empty_message_toast	
+0x7f0f0246	string	not_selected	
+0x7f0f0247	string	notification_permission_description	
+0x7f0f0248	string	notification_permission_title	
+0x7f0f024a	string	off	
+0x7f0f024b	string	on	
+0x7f0f024c	string	one_click_login_button	
+0x7f0f024d	string	one_click_login_change_phone_number_button	
+0x7f0f024e	string	one_click_login_error_toast	
+0x7f0f024f	string	one_click_login_hint_text	
+0x7f0f0250	string	open_in_browser	
+0x7f0f0251	string	open_sidebar	
+0x7f0f0252	string	open_we_chat_failed_toast	
+0x7f0f0253	string	operation_failed	
+0x7f0f0255	string	partial_chats_pinned	
+0x7f0f0256	string	partial_chats_pinned_plural	
+0x7f0f0257	string	password_login_button	
+0x7f0f0258	string	password_login_title	
+0x7f0f0259	string	password_placeholder	
+0x7f0f025a	string	permission_app_dialog_confirm	
+0x7f0f025b	string	personalization	
+0x7f0f025c	string	phone_number_cannot_receive_code	
+0x7f0f025e	string	photo_capture_failed_toast	
+0x7f0f025f	string	photo_library_permission_description	
+0x7f0f0260	string	photo_library_permission_title	
+0x7f0f0261	string	poor_network_connection	
+0x7f0f0262	string	postpaid_user_cannot_unregister	
+0x7f0f0263	string	pow_error_toast	
+0x7f0f0264	string	preview_font_size_msg1	
+0x7f0f0265	string	preview_font_size_msg2	
+0x7f0f0266	string	preview_font_size_msg3	
+0x7f0f0267	string	previous_message	
+0x7f0f0268	string	privacy_agree	
+0x7f0f0269	string	privacy_disagree	
+0x7f0f026a	string	privacy_policy	
+0x7f0f026b	string	process_expired_toast	
+0x7f0f026c	string	process_text_intent_label	
+0x7f0f026d	string	profile3rd_party_bound	
+0x7f0f026e	string	profile3rd_party_list	
+0x7f0f026f	string	profile_about_section_header	
+0x7f0f0270	string	profile_account_deleted_toast	
+0x7f0f0271	string	profile_account_security_section_header	
+0x7f0f0272	string	profile_ai_compliance_footer	
+0x7f0f0273	string	profile_apple_account_title	
+0x7f0f0274	string	profile_check_for_updates	
+0x7f0f0275	string	profile_check_for_updates_newest	
+0x7f0f0278	string	profile_confirm_delete_message_balance_forfeiture	
+0x7f0f0279	string	profile_confirm_delete_message_data_loss	
+0x7f0f027a	string	profile_confirm_delete_message_dont_repeat	
+0x7f0f027b	string	profile_confirm_delete_message_service_termination	
+0x7f0f027c	string	profile_confirm_delete_subtitle_balance_forfeiture	
+0x7f0f027d	string	profile_confirm_delete_subtitle_data_loss	
+0x7f0f027e	string	profile_confirm_delete_subtitle_dont_repeat	
+0x7f0f027f	string	profile_confirm_delete_subtitle_service_termination	
+0x7f0f0280	string	profile_confirm_delete_title	
+0x7f0f0281	string	profile_contact	
+0x7f0f0282	string	profile_delete	
+0x7f0f0286	string	profile_delete_all_chat_button	
+0x7f0f0287	string	profile_delete_all_chat_ok_toast	
+0x7f0f0288	string	profile_email	
+0x7f0f0289	string	profile_google_account_title	
+0x7f0f028a	string	profile_help_and_feedback	
+0x7f0f028b	string	profile_imporve_model	
+0x7f0f028c	string	profile_imporve_model_supporting_label	
+0x7f0f028d	string	profile_info_section_header	
+0x7f0f028e	string	profile_logout	
+0x7f0f028f	string	profile_mobile	
+0x7f0f0290	string	profile_premission_list	
+0x7f0f0291	string	profile_private_info_list	
+0x7f0f0292	string	profile_service_section_header	
+0x7f0f0293	string	profile_title	
+0x7f0f0294	string	profile_wechat_account_title	
+0x7f0f0295	string	prompt_too_long_toast	
+0x7f0f0298	string	read_aloud_auto_disabled_toast	
+0x7f0f0299	string	read_aloud_auto_enabled_toast	
+0x7f0f029a	string	read_aloud_daily_limit_reached_toast	
+0x7f0f029b	string	read_aloud_frequent_toast	
+0x7f0f029c	string	read_aloud_interrupted_toast	
+0x7f0f029d	string	read_aloud_language_not_supported_switch_voice_toast	
+0x7f0f029e	string	read_aloud_language_not_supported_toast	
+0x7f0f029f	string	read_aloud_load_failed_toast	
+0x7f0f02a0	string	read_aloud_low_volume_toast	
+0x7f0f02a1	string	read_aloud_network_error_toast	
+0x7f0f02a2	string	read_aloud_play_failed_toast	
+0x7f0f02a3	string	read_aloud_start_label	
+0x7f0f02a4	string	read_aloud_stop_label	
+0x7f0f02a5	string	read_aloud_voice_discontinued_toast	
+0x7f0f02a6	string	read_aloud_voice_switch_failed_toast	
+0x7f0f02a7	string	reading_aloud	
+0x7f0f02a8	string	rebind_fallback_toast	
+0x7f0f02aa	string	rebind_mobile_alert_confirm	
+0x7f0f02ab	string	rebind_mobile_alert_message	
+0x7f0f02ac	string	rebind_mobile_alert_message_bold	
+0x7f0f02ad	string	rebind_mobile_alert_title	
+0x7f0f02ae	string	rebind_mobile_check_service_error_toast	
+0x7f0f02af	string	rebind_mobile_failed	
+0x7f0f02b1	string	rebind_mobile_still_in_use_toast	
+0x7f0f02b2	string	rebind_mobile_succeed	
+0x7f0f02b3	string	rebind_mobile_toast_bound_by_others	
+0x7f0f02b4	string	rebind_mobile_toast_same_number	
+0x7f0f02b5	string	rebind_mobile_too_many_attempts_toast	
+0x7f0f02b6	string	rebind_mobile_verify_confirm_button	
+0x7f0f02b7	string	rebind_mobile_verify_new_mobile	
+0x7f0f02b8	string	rebind_mobile_verify_next_button	
+0x7f0f02b9	string	rebind_mobile_verify_old_mobile	
+0x7f0f02ba	string	rebind_mobile_wrong_old_number_remaining_toast	
+0x7f0f02bc	string	recognizing_label	
+0x7f0f02bd	string	record_remaining_second	
+0x7f0f02be	string	record_remaining_seconds	
+0x7f0f02bf	string	record_swiped_up_label	
+0x7f0f02c0	string	recording_label	
+0x7f0f02c1	string	redial_call	
+0x7f0f02c2	string	redirect_dialog_message	
+0x7f0f02c3	string	redo	
+0x7f0f02c4	string	regenerate_disable_search	
+0x7f0f02c5	string	regenerate_enable_search	
+0x7f0f02c6	string	regenerate_normal	
+0x7f0f02c7	string	regenerate_quota_exceed_toast	
+0x7f0f02c8	string	regenerate_verbosity_high	
+0x7f0f02c9	string	regenerate_verbosity_low	
+0x7f0f02ca	string	register_fallback_toast	
+0x7f0f02cc	string	rename_failed	
+0x7f0f02cd	string	rename_session_action	
+0x7f0f02ce	string	rename_session_modal_title	
+0x7f0f02cf	string	resend_verification_code_text	
+0x7f0f02d0	string	reset_password_button	
+0x7f0f02d1	string	reset_password_description	
+0x7f0f02d2	string	reset_password_fallback_toast	
+0x7f0f02d3	string	reset_password_title	
+0x7f0f02d4	string	response_settings	
+0x7f0f02d5	string	resume_message_not_found_toast	
+0x7f0f02d6	string	resume_message_time_too_long_toast	
+0x7f0f02d7	string	retry	
+0x7f0f02d8	string	retry_button	
+0x7f0f02da	string	rotate	
+0x7f0f02dc	string	scan_image_camera_title	
+0x7f0f02dd	string	scan_q_r_code_alert	
+0x7f0f02de	string	scan_text_camera_title	
+0x7f0f02e0	string	search_empty_result	
+0x7f0f02e1	string	search_fail	
+0x7f0f02e2	string	search_hint	
+0x7f0f02e3	string	search_limit	
+0x7f0f02e4	string	search_load_error_retry_action	
+0x7f0f02e5	string	search_load_more	
+0x7f0f02e6	string	search_long_time	
+0x7f0f02e8	string	search_more_result_fail	
+0x7f0f02e9	string	search_navigate_fail	
+0x7f0f02ea	string	search_no_result	
+0x7f0f02eb	string	search_no_result_load_more_action	
+0x7f0f02ec	string	search_reload	
+0x7f0f02ed	string	select_all	
+0x7f0f02ee	string	select_area_to_ask	
+0x7f0f02ef	string	select_chat_title	
+0x7f0f02f0	string	selected	
+0x7f0f02f1	string	selected_chat_empty	
+0x7f0f02f2	string	selected_chat_empty_plural	
+0x7f0f02f5	string	send	
+0x7f0f02f6	string	send_code_ok_toast	
+0x7f0f02f7	string	send_verification_code_button	
+0x7f0f02f8	string	send_when_session_history_fail_toast	
+0x7f0f02f9	string	send_when_session_history_fetching_toast	
+0x7f0f02fa	string	sending	
+0x7f0f02fb	string	session_a_i_alert	
+0x7f0f02fc	string	session_already_in_new_toast	
+0x7f0f02fd	string	session_batch_delete_alert_title	
+0x7f0f02fe	string	session_batch_delete_alert_title_plural	
+0x7f0f02ff	string	session_batch_delete_description	
+0x7f0f0300	string	session_batch_delete_success_toast	
+0x7f0f0301	string	session_batch_delete_success_toast_plural	
+0x7f0f0303	string	session_batch_entry_button	
+0x7f0f0305	string	session_batch_pin_alert	
+0x7f0f0306	string	session_batch_pin_alert_plural	
+0x7f0f0307	string	session_batch_pin_limit_toast	
+0x7f0f0308	string	session_batch_pin_success_toast	
+0x7f0f0309	string	session_batch_pin_success_toast_plural	
+0x7f0f030a	string	session_batch_selected_count	
+0x7f0f030c	string	session_batch_unpin_alert	
+0x7f0f030d	string	session_batch_unpin_alert_plural	
+0x7f0f030e	string	session_batch_unpin_success_toast	
+0x7f0f030f	string	session_batch_unpin_success_toast_plural	
+0x7f0f0310	string	session_cannot_be_pinned_toast	
+0x7f0f0311	string	session_cannot_update_title_toast	
+0x7f0f0314	string	session_delete_confirm	
+0x7f0f0315	string	session_delete_description	
+0x7f0f0316	string	session_delete_error_toast	
+0x7f0f0317	string	session_delete_modal	
+0x7f0f0318	string	session_delete_successfully_toast	
+0x7f0f031a	string	session_group_pinned	
+0x7f0f031b	string	session_group_pinned_collapsed	
+0x7f0f031c	string	session_history_error_title	
+0x7f0f031d	string	session_history_timeline_label30days	
+0x7f0f031e	string	session_history_timeline_label7_days	
+0x7f0f031f	string	session_history_timeline_label_today	
+0x7f0f0320	string	session_history_timeline_label_yesterday	
+0x7f0f0321	string	session_init_title	
+0x7f0f0322	string	session_is_deleted_toast	
+0x7f0f0324	string	session_list_empty_description	
+0x7f0f0325	string	session_list_empty_title	
+0x7f0f0326	string	session_list_error_title	
+0x7f0f0327	string	session_list_load_error_toast	
+0x7f0f0328	string	session_list_load_more_failed	
+0x7f0f0329	string	session_list_new_chat_button	
+0x7f0f032a	string	session_model_name_tag_toast	
+0x7f0f032b	string	session_new_chat_button	
+0x7f0f032c	string	session_pin_action	
+0x7f0f032d	string	session_pin_error_default_toast	
+0x7f0f032e	string	session_pin_error_toast2	
+0x7f0f032f	string	session_pin_error_toast3	
+0x7f0f0330	string	session_send_tip_new_chat	
+0x7f0f0331	string	session_unpin_action	
+0x7f0f0332	string	set_age_picker_title_for_settings	
+0x7f0f0333	string	settings	
+0x7f0f0334	string	share	
+0x7f0f0335	string	share_content_filter_status_toast	
+0x7f0f0336	string	share_copy_ok_toast	
+0x7f0f0339	string	share_create_error_toast	
+0x7f0f033c	string	share_create_link_exceed_limit_toast	
+0x7f0f033e	string	share_delete_description	
+0x7f0f033f	string	share_delete_title	
+0x7f0f0340	string	share_file_description	
+0x7f0f0341	string	share_file_name	
+0x7f0f0342	string	share_fork_error_toast	
+0x7f0f0343	string	share_generate_image_button	
+0x7f0f0346	string	share_image_footer_alert_v2	
+0x7f0f0347	string	share_image_save_error_toast	
+0x7f0f0348	string	share_image_save_photo	
+0x7f0f0349	string	share_image_title	
+0x7f0f034a	string	share_image_too_big_toast	
+0x7f0f034c	string	share_link_copy	
+0x7f0f034d	string	share_link_copy_button	
+0x7f0f034e	string	share_link_expired_toast	
+0x7f0f034f	string	share_link_invalid_toast	
+0x7f0f0350	string	share_links_manage_delete_failed_toast	
+0x7f0f0351	string	share_links_manage_delete_ok_toast	
+0x7f0f0352	string	share_list_empty	
+0x7f0f0353	string	share_list_fail	
+0x7f0f0354	string	share_list_share_time	
+0x7f0f0355	string	share_list_title	
+0x7f0f0356	string	share_more_button	
+0x7f0f0357	string	share_no_selectable_message	
+0x7f0f0358	string	share_preview_top_alert	
+0x7f0f035a	string	share_select_all_partial_toast	
+0x7f0f035d	string	share_select_count_short	
+0x7f0f035e	string	share_select_count_short_plural	
+0x7f0f035f	string	share_to_we_chat	
+0x7f0f0360	string	share_uncertain_status_toast	
+0x7f0f0361	string	shared_but_mute_toast	
+0x7f0f0362	string	shared_but_not_signed_in_toast	
+0x7f0f0363	string	shared_files_not_exist_toast	
+0x7f0f0364	string	show_call_captions	
+0x7f0f0365	string	show_menu	
+0x7f0f0366	string	show_password	
+0x7f0f0367	string	shumei_captcha_load_failed	
+0x7f0f0368	string	sider_profile	
+0x7f0f036b	string	sign_in_failed_toast	
+0x7f0f036f	string	sign_in_mobile_placeholder	
+0x7f0f0370	string	sign_in_only_from_mainland_toast	
+0x7f0f0371	string	sign_in_password_email_error_toast	
+0x7f0f0378	string	sign_in_wechat_not_installed_tip	
+0x7f0f0379	string	sign_in_with_wechat_only_from_mainland_toast	
+0x7f0f037a	string	sign_up_button	
+0x7f0f037b	string	sign_up_confirm_password_placeholder	
+0x7f0f037c	string	sign_up_email_domain_not_supported	
+0x7f0f037d	string	sign_up_email_exists_toast	
+0x7f0f037e	string	sign_up_email_from_mainland_toast	
+0x7f0f0380	string	sign_up_password_invalid_toast	
+0x7f0f0381	string	sign_up_password_placeholder	
+0x7f0f0383	string	sign_up_title	
+0x7f0f0384	string	sign_up_warn_password2_not_same	
+0x7f0f0386	string	some_files_failed_toast	
+0x7f0f0388	string	speaking	
+0x7f0f0389	string	start_chat	
+0x7f0f038a	string	state_empty	
+0x7f0f038b	string	state_off	
+0x7f0f038c	string	state_on	
+0x7f0f038e	string	stop	
+0x7f0f038f	string	storage_permission_app_dialog_title	
+0x7f0f0390	string	storage_permission_description	
+0x7f0f0391	string	storage_permission_title	
+0x7f0f0392	string	submit_call_feedback	
+0x7f0f0393	string	suggestion_prompt_analyze	
+0x7f0f0394	string	suggestion_prompt_explain	
+0x7f0f0395	string	suggestion_prompt_find_answer	
+0x7f0f0396	string	suggestion_prompt_suggest_solution	
+0x7f0f0397	string	suggestion_prompt_summarize	
+0x7f0f0398	string	suggestion_prompt_what_is_this	
+0x7f0f0399	string	switch_role	
+0x7f0f039a	string	switch_to_text	
+0x7f0f039b	string	switch_to_vision_banner	
+0x7f0f039c	string	switch_to_voice	
+0x7f0f039e	string	tab	
+0x7f0f039f	string	template_percent	
+0x7f0f03a0	string	term_and_privacy_policy	
+0x7f0f03a1	string	terms_agree_on_launch	
+0x7f0f03a2	string	terms_of_use	
+0x7f0f03a4	string	thinking_auto_fold	
+0x7f0f03a5	string	thinking_auto_fold_desc	
+0x7f0f03a6	string	too_many_active_call_devices	
+0x7f0f03a7	string	too_many_request_toast	
+0x7f0f03a8	string	tool_find_failed	
+0x7f0f03a9	string	tool_find_finished	
+0x7f0f03aa	string	tool_find_no_result	
+0x7f0f03ab	string	tool_find_wip	
+0x7f0f03ac	string	tool_open	
+0x7f0f03ad	string	tool_open_failed	
+0x7f0f03ae	string	tool_open_search_result	
+0x7f0f03af	string	tool_search_failed	
+0x7f0f03b2	string	tool_search_result	
+0x7f0f03b7	string	try_again_toast	
+0x7f0f03b8	string	tts_voice_switched_toast	
+0x7f0f03ba	string	turn_off_microphone	
+0x7f0f03bc	string	turn_on_microphone	
+0x7f0f03be	string	unbind_wechat_alert_confirm	
+0x7f0f03bf	string	unbind_wechat_alert_message	
+0x7f0f03c0	string	unbind_wechat_alert_title	
+0x7f0f03c1	string	unbind_wechat_failed	
+0x7f0f03c2	string	unbind_wechat_failed_not_bound	
+0x7f0f03c3	string	unbind_wechat_fallback_toast	
+0x7f0f03c4	string	unbind_wechat_succeed	
+0x7f0f03c5	string	undo	
+0x7f0f03c6	string	unfold	
+0x7f0f03c7	string	unknown_biz_code_default_toast	
+0x7f0f03c8	string	unregister_fallback_toast	
+0x7f0f03c9	string	unregister_too_frequent_toast	
+0x7f0f03ca	string	unsupported_file_format	
+0x7f0f03cb	string	upgrade_app	
+0x7f0f03cc	string	upload_file_delete_invalid_file_prompt	
+0x7f0f03cd	string	upload_file_failed_toast	
+0x7f0f03ce	string	upload_file_menu_local	
+0x7f0f03cf	string	upload_file_menu_we_chat	
+0x7f0f03d0	string	upload_file_status_content_empty	
+0x7f0f03d1	string	upload_file_status_content_filter	
+0x7f0f03d2	string	upload_file_status_failed	
+0x7f0f03d4	string	upload_file_status_sucess	
+0x7f0f03d5	string	upload_file_status_uploading	
+0x7f0f03d6	string	upload_panel_add_more_photos	
+0x7f0f03d7	string	upload_panel_album	
+0x7f0f03d8	string	upload_panel_camera	
+0x7f0f03da	string	upload_panel_file	
+0x7f0f03dc	string	uploading	
+0x7f0f03dd	string	usage_limit_reached	
+0x7f0f03de	string	user_is_banned_toast	
+0x7f0f03df	string	verification_code_login_button	
+0x7f0f03e0	string	verification_code_login_title	
+0x7f0f03e1	string	verification_code_placeholder	
+0x7f0f03e2	string	verify_account	
+0x7f0f03e3	string	verify_account_description	
+0x7f0f03e4	string	verify_disabled_mobile_not_supported	
+0x7f0f03e5	string	verify_to_login	
+0x7f0f03e6	string	vision_model_description	
+0x7f0f03e7	string	vision_model_name	
+0x7f0f03e8	string	voice_input_button	
+0x7f0f03e9	string	voice_send_error	
+0x7f0f03ee	string	voice_switch_bottom_sheet_title	
+0x7f0f03ef	string	voice_switch_confirm	
+0x7f0f03f0	string	we_chat_account_mismatch_toast	
+0x7f0f03f2	string	wechat_fallback_toast	
+0x7f0f03f3	string	wechat_login_button	
+0x7f0f03f5	string	wechat_mobile_verification_mobile_bound_toast	
+0x7f0f03f6	string	wechat_mobile_verification_we_chat_bound_toast	
+0x7f0f03f8	string	wechat_sign_in_swap_code_invalid_error	
+0x7f0f03fd	string	welcome_message_title_unified	
+0x7f100000	style	AlertDialog.AppCompat	
+0x7f100001	style	AlertDialog.AppCompat.Light	
+0x7f100002	style	Animation.AppCompat.Dialog	
+0x7f100003	style	Animation.AppCompat.DropDownUp	
+0x7f100004	style	Animation.AppCompat.Tooltip	
+0x7f100005	style	Base.AlertDialog.AppCompat	
+0x7f100006	style	Base.AlertDialog.AppCompat.Light	
+0x7f100007	style	Base.Animation.AppCompat.Dialog	
+0x7f100008	style	Base.Animation.AppCompat.DropDownUp	
+0x7f100009	style	Base.Animation.AppCompat.Tooltip	
+0x7f10000a	style	Base.DialogWindowTitle.AppCompat	
+0x7f10000b	style	Base.DialogWindowTitleBackground.AppCompat	
+0x7f10000c	style	Base.TextAppearance.AppCompat	
+0x7f10000d	style	Base.TextAppearance.AppCompat.Body1	
+0x7f10001f	style	Base.TextAppearance.AppCompat.SearchResult.Subtitle	
+0x7f100020	style	Base.TextAppearance.AppCompat.SearchResult.Title	
+0x7f100023	style	Base.TextAppearance.AppCompat.Subhead	
+0x7f100025	style	Base.TextAppearance.AppCompat.Title	
+0x7f100028	style	Base.TextAppearance.AppCompat.Widget.ActionBar.Menu	
+0x7f100029	style	Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle	
+0x7f10002b	style	Base.TextAppearance.AppCompat.Widget.ActionBar.Title	
+0x7f10002d	style	Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle	
+0x7f10002e	style	Base.TextAppearance.AppCompat.Widget.ActionMode.Title	
+0x7f10002f	style	Base.TextAppearance.AppCompat.Widget.Button	
+0x7f100034	style	Base.TextAppearance.AppCompat.Widget.PopupMenu.Header	
+0x7f100035	style	Base.TextAppearance.AppCompat.Widget.PopupMenu.Large	
+0x7f100036	style	Base.TextAppearance.AppCompat.Widget.PopupMenu.Small	
+0x7f100037	style	Base.TextAppearance.AppCompat.Widget.Switch	
+0x7f10003a	style	Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle	
+0x7f10003b	style	Base.TextAppearance.Widget.AppCompat.Toolbar.Title	
+0x7f10003c	style	Base.Theme.AppCompat	
+0x7f10003d	style	Base.Theme.AppCompat.CompactMenu	
+0x7f100043	style	Base.Theme.AppCompat.Light	
+0x7f10004a	style	Base.ThemeOverlay.AppCompat	
+0x7f10004b	style	Base.ThemeOverlay.AppCompat.ActionBar	
+0x7f10004e	style	Base.ThemeOverlay.AppCompat.Dialog	
+0x7f10004f	style	Base.ThemeOverlay.AppCompat.Dialog.Alert	
+0x7f100051	style	Base.V21.Theme.AppCompat	
+0x7f100053	style	Base.V21.Theme.AppCompat.Light	
+0x7f100055	style	Base.V21.ThemeOverlay.AppCompat.Dialog	
+0x7f100056	style	Base.V22.Theme.AppCompat	
+0x7f100057	style	Base.V22.Theme.AppCompat.Light	
+0x7f100058	style	Base.V23.Theme.AppCompat	
+0x7f100059	style	Base.V23.Theme.AppCompat.Light	
+0x7f10005a	style	Base.V26.Theme.AppCompat	
+0x7f10005b	style	Base.V26.Theme.AppCompat.Light	
+0x7f10005c	style	Base.V26.Widget.AppCompat.Toolbar	
+0x7f10005d	style	Base.V28.Theme.AppCompat	
+0x7f10005e	style	Base.V28.Theme.AppCompat.Light	
+0x7f10005f	style	Base.V7.Theme.AppCompat	
+0x7f100061	style	Base.V7.Theme.AppCompat.Light	
+0x7f100063	style	Base.V7.ThemeOverlay.AppCompat.Dialog	
+0x7f100066	style	Base.V7.Widget.AppCompat.Toolbar	
+0x7f100067	style	Base.Widget.AppCompat.ActionBar	
+0x7f100068	style	Base.Widget.AppCompat.ActionBar.Solid	
+0x7f100069	style	Base.Widget.AppCompat.ActionBar.TabBar	
+0x7f10006a	style	Base.Widget.AppCompat.ActionBar.TabText	
+0x7f10006b	style	Base.Widget.AppCompat.ActionBar.TabView	
+0x7f10006c	style	Base.Widget.AppCompat.ActionButton	
+0x7f10006d	style	Base.Widget.AppCompat.ActionButton.CloseMode	
+0x7f10006e	style	Base.Widget.AppCompat.ActionButton.Overflow	
+0x7f10006f	style	Base.Widget.AppCompat.ActionMode	
+0x7f100070	style	Base.Widget.AppCompat.ActivityChooserView	
+0x7f100071	style	Base.Widget.AppCompat.AutoCompleteTextView	
+0x7f100072	style	Base.Widget.AppCompat.Button	
+0x7f100073	style	Base.Widget.AppCompat.Button.Borderless	
+0x7f100074	style	Base.Widget.AppCompat.Button.Borderless.Colored	
+0x7f100075	style	Base.Widget.AppCompat.Button.ButtonBar.AlertDialog	
+0x7f100077	style	Base.Widget.AppCompat.Button.Small	
+0x7f100078	style	Base.Widget.AppCompat.ButtonBar	
+0x7f100079	style	Base.Widget.AppCompat.ButtonBar.AlertDialog	
+0x7f10007a	style	Base.Widget.AppCompat.CompoundButton.CheckBox	
+0x7f10007b	style	Base.Widget.AppCompat.CompoundButton.RadioButton	
+0x7f10007c	style	Base.Widget.AppCompat.CompoundButton.Switch	
+0x7f10007d	style	Base.Widget.AppCompat.DrawerArrowToggle	
+0x7f10007e	style	Base.Widget.AppCompat.DrawerArrowToggle.Common	
+0x7f10007f	style	Base.Widget.AppCompat.DropDownItem.Spinner	
+0x7f100080	style	Base.Widget.AppCompat.EditText	
+0x7f100081	style	Base.Widget.AppCompat.ImageButton	
+0x7f100082	style	Base.Widget.AppCompat.Light.ActionBar	
+0x7f100083	style	Base.Widget.AppCompat.Light.ActionBar.Solid	
+0x7f100084	style	Base.Widget.AppCompat.Light.ActionBar.TabBar	
+0x7f100085	style	Base.Widget.AppCompat.Light.ActionBar.TabText	
+0x7f100087	style	Base.Widget.AppCompat.Light.ActionBar.TabView	
+0x7f100088	style	Base.Widget.AppCompat.Light.PopupMenu	
+0x7f100089	style	Base.Widget.AppCompat.Light.PopupMenu.Overflow	
+0x7f10008a	style	Base.Widget.AppCompat.ListMenuView	
+0x7f10008b	style	Base.Widget.AppCompat.ListPopupWindow	
+0x7f10008c	style	Base.Widget.AppCompat.ListView	
+0x7f10008d	style	Base.Widget.AppCompat.ListView.DropDown	
+0x7f10008e	style	Base.Widget.AppCompat.ListView.Menu	
+0x7f10008f	style	Base.Widget.AppCompat.PopupMenu	
+0x7f100090	style	Base.Widget.AppCompat.PopupMenu.Overflow	
+0x7f100094	style	Base.Widget.AppCompat.RatingBar	
+0x7f100095	style	Base.Widget.AppCompat.RatingBar.Indicator	
+0x7f100096	style	Base.Widget.AppCompat.RatingBar.Small	
+0x7f100097	style	Base.Widget.AppCompat.SearchView	
+0x7f100098	style	Base.Widget.AppCompat.SearchView.ActionBar	
+0x7f100099	style	Base.Widget.AppCompat.SeekBar	
+0x7f10009b	style	Base.Widget.AppCompat.Spinner	
+0x7f10009d	style	Base.Widget.AppCompat.TextView	
+0x7f10009e	style	Base.Widget.AppCompat.TextView.SpinnerItem	
+0x7f10009f	style	Base.Widget.AppCompat.Toolbar	
+0x7f1000a0	style	Base.Widget.AppCompat.Toolbar.Button.Navigation	
+0x7f1000a1	style	DialogWindowTheme	
+0x7f1000a4	style	FloatingDialogWindowTheme	
+0x7f1000a6	style	Platform.AppCompat	
+0x7f1000a7	style	Platform.AppCompat.Light	
+0x7f1000a8	style	Platform.ThemeOverlay.AppCompat	
+0x7f1000ab	style	Platform.V21.AppCompat	
+0x7f1000ac	style	Platform.V21.AppCompat.Light	
+0x7f1000ad	style	Platform.V25.AppCompat	
+0x7f1000ae	style	Platform.V25.AppCompat.Light	
+0x7f1000b0	style	RtlOverlay.DialogWindowTitle.AppCompat	
+0x7f1000b1	style	RtlOverlay.Widget.AppCompat.ActionBar.TitleItem	
+0x7f1000b3	style	RtlOverlay.Widget.AppCompat.PopupMenuItem	
+0x7f1000b4	style	RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup	
+0x7f1000b5	style	RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut	
+0x7f1000b6	style	RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow	
+0x7f1000b7	style	RtlOverlay.Widget.AppCompat.PopupMenuItem.Text	
+0x7f1000b8	style	RtlOverlay.Widget.AppCompat.PopupMenuItem.Title	
+0x7f1000b9	style	RtlOverlay.Widget.AppCompat.Search.DropDown	
+0x7f1000ba	style	RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1	
+0x7f1000bb	style	RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2	
+0x7f1000bc	style	RtlOverlay.Widget.AppCompat.Search.DropDown.Query	
+0x7f1000bd	style	RtlOverlay.Widget.AppCompat.Search.DropDown.Text	
+0x7f1000be	style	RtlOverlay.Widget.AppCompat.SearchView.MagIcon	
+0x7f1000c1	style	TextAppearance.AppCompat	
+0x7f1000c2	style	TextAppearance.AppCompat.Body1	
+0x7f1000d0	style	TextAppearance.AppCompat.Light.Widget.PopupMenu.Large	
+0x7f1000d1	style	TextAppearance.AppCompat.Light.Widget.PopupMenu.Small	
+0x7f1000d5	style	TextAppearance.AppCompat.SearchResult.Subtitle	
+0x7f1000d6	style	TextAppearance.AppCompat.SearchResult.Title	
+0x7f1000d9	style	TextAppearance.AppCompat.Subhead	
+0x7f1000db	style	TextAppearance.AppCompat.Title	
+0x7f1000dd	style	TextAppearance.AppCompat.Tooltip	
+0x7f1000de	style	TextAppearance.AppCompat.Widget.ActionBar.Menu	
+0x7f1000df	style	TextAppearance.AppCompat.Widget.ActionBar.Subtitle	
+0x7f1000e1	style	TextAppearance.AppCompat.Widget.ActionBar.Title	
+0x7f1000e3	style	TextAppearance.AppCompat.Widget.ActionMode.Subtitle	
+0x7f1000e5	style	TextAppearance.AppCompat.Widget.ActionMode.Title	
+0x7f1000e7	style	TextAppearance.AppCompat.Widget.Button	
+0x7f1000ec	style	TextAppearance.AppCompat.Widget.PopupMenu.Header	
+0x7f1000ed	style	TextAppearance.AppCompat.Widget.PopupMenu.Large	
+0x7f1000ee	style	TextAppearance.AppCompat.Widget.PopupMenu.Small	
+0x7f1000ef	style	TextAppearance.AppCompat.Widget.Switch	
+0x7f1000f2	style	TextAppearance.Compat.Notification.Info	
+0x7f1000f3	style	TextAppearance.Compat.Notification.Line2	
+0x7f1000f5	style	TextAppearance.Compat.Notification.Title	
+0x7f1000f7	style	TextAppearance.Widget.AppCompat.Toolbar.Subtitle	
+0x7f1000f8	style	TextAppearance.Widget.AppCompat.Toolbar.Title	
+0x7f1000f9	style	Theme.AppCompat	
+0x7f1000fa	style	Theme.AppCompat.CompactMenu	
+0x7f100101	style	Theme.AppCompat.DayNight.NoActionBar	
+0x7f100106	style	Theme.AppCompat.Empty	
+0x7f100107	style	Theme.AppCompat.Light	
+0x7f10010d	style	Theme.AppCompat.Light.NoActionBar	
+0x7f10010e	style	Theme.AppCompat.NoActionBar	
+0x7f100110	style	Theme.DeepSeek	
+0x7f100111	style	Theme.Hidden	
+0x7f100113	style	ThemeOverlay.AppCompat.ActionBar	
+0x7f100118	style	ThemeOverlay.AppCompat.Dialog	
+0x7f100119	style	ThemeOverlay.AppCompat.Dialog.Alert	
+0x7f10011b	style	TranslucentStyle	
+0x7f10011c	style	WebView.Dark	
+0x7f10011d	style	WebView.Light	
+0x7f10011f	style	Widget.AppCompat.ActionBar.Solid	
+0x7f100120	style	Widget.AppCompat.ActionBar.TabBar	
+0x7f100121	style	Widget.AppCompat.ActionBar.TabText	
+0x7f100122	style	Widget.AppCompat.ActionBar.TabView	
+0x7f100123	style	Widget.AppCompat.ActionButton	
+0x7f100124	style	Widget.AppCompat.ActionButton.CloseMode	
+0x7f100125	style	Widget.AppCompat.ActionButton.Overflow	
+0x7f100126	style	Widget.AppCompat.ActionMode	
+0x7f100127	style	Widget.AppCompat.ActivityChooserView	
+0x7f100128	style	Widget.AppCompat.AutoCompleteTextView	
+0x7f100129	style	Widget.AppCompat.Button	
+0x7f10012a	style	Widget.AppCompat.Button.Borderless	
+0x7f10012b	style	Widget.AppCompat.Button.Borderless.Colored	
+0x7f10012c	style	Widget.AppCompat.Button.ButtonBar.AlertDialog	
+0x7f10012e	style	Widget.AppCompat.Button.Small	
+0x7f10012f	style	Widget.AppCompat.ButtonBar	
+0x7f100130	style	Widget.AppCompat.ButtonBar.AlertDialog	
+0x7f100131	style	Widget.AppCompat.CompoundButton.CheckBox	
+0x7f100132	style	Widget.AppCompat.CompoundButton.RadioButton	
+0x7f100133	style	Widget.AppCompat.CompoundButton.Switch	
+0x7f100134	style	Widget.AppCompat.DrawerArrowToggle	
+0x7f100135	style	Widget.AppCompat.DropDownItem.Spinner	
+0x7f100136	style	Widget.AppCompat.EditText	
+0x7f100137	style	Widget.AppCompat.ImageButton	
+0x7f100139	style	Widget.AppCompat.Light.ActionBar.Solid	
+0x7f10013b	style	Widget.AppCompat.Light.ActionBar.TabBar	
+0x7f10013d	style	Widget.AppCompat.Light.ActionBar.TabText	
+0x7f10013f	style	Widget.AppCompat.Light.ActionBar.TabView	
+0x7f100141	style	Widget.AppCompat.Light.ActionButton	
+0x7f100143	style	Widget.AppCompat.Light.ActionButton.Overflow	
+0x7f10014a	style	Widget.AppCompat.Light.PopupMenu	
+0x7f10014b	style	Widget.AppCompat.Light.PopupMenu.Overflow	
+0x7f10014c	style	Widget.AppCompat.Light.SearchView	
+0x7f10014d	style	Widget.AppCompat.Light.Spinner.DropDown.ActionBar	
+0x7f10014e	style	Widget.AppCompat.ListMenuView	
+0x7f10014f	style	Widget.AppCompat.ListPopupWindow	
+0x7f100150	style	Widget.AppCompat.ListView	
+0x7f100151	style	Widget.AppCompat.ListView.DropDown	
+0x7f100152	style	Widget.AppCompat.ListView.Menu	
+0x7f100153	style	Widget.AppCompat.PopupMenu	
+0x7f100154	style	Widget.AppCompat.PopupMenu.Overflow	
+0x7f100158	style	Widget.AppCompat.RatingBar	
+0x7f100159	style	Widget.AppCompat.RatingBar.Indicator	
+0x7f10015a	style	Widget.AppCompat.RatingBar.Small	
+0x7f10015b	style	Widget.AppCompat.SearchView	
+0x7f10015c	style	Widget.AppCompat.SearchView.ActionBar	
+0x7f10015d	style	Widget.AppCompat.SeekBar	
+0x7f10015f	style	Widget.AppCompat.Spinner	
+0x7f100160	style	Widget.AppCompat.Spinner.DropDown	
+0x7f100161	style	Widget.AppCompat.Spinner.DropDown.ActionBar	
+0x7f100163	style	Widget.AppCompat.TextView	
+0x7f100164	style	Widget.AppCompat.TextView.SpinnerItem	
+0x7f100165	style	Widget.AppCompat.Toolbar	
+0x7f100166	style	Widget.AppCompat.Toolbar.Button.Navigation	
+0x7f10016f	style	scrollbar_style	
+0x7f120000	xml	_generated_res_locale_config	res/Ed.xml,res/vY.xml
+0x7f120001	xml	backup_rules	res/Qq.xml
+0x7f120002	xml	data_extraction_rules	res/4j.xml
+0x7f120004	xml	network_security_config	res/8G.xml
+0x7f120005	xml	provider_paths	res/zz.xml
+0x7f120006	xml	shortcuts	res/Eq.xml
